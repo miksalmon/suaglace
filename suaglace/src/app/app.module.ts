@@ -7,6 +7,7 @@ import { RinkListPage } from '../pages/rink-list/rink-list';
 import { ProfilPage } from '../pages/profil/profil';
 import { MapPage } from '../pages/map/map';
 import { TabsPage } from '../pages/tabs/tabs';
+import { RinkDetailsModal } from './../pages/rink-details/rink-details';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,7 +18,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RinkListPage,
     ProfilPage,
     MapPage,
-    TabsPage
+    TabsPage,
+    RinkDetailsModal
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     RinkListPage,
     ProfilPage,
     MapPage,
-    TabsPage
+    TabsPage,
+    RinkDetailsModal
   ],
   providers: [
     StatusBar,
