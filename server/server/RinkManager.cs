@@ -18,5 +18,12 @@ namespace server
             Rinks.ForEach(rink => CurrentPlayers.Add(rink.Id, new List<User>()));
             CurrentPlayers = new Dictionary<string, List<User>>();
         }
+
+        public void JoinRink(User player, string rinkId)
+        {
+            List<User> players;
+            CurrentPlayers.TryGetValue(rinkId, out players);
+            players.Add(player);
+        }
     }
 }

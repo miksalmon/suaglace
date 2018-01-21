@@ -8,7 +8,7 @@ namespace server
     {
         static void Main()
         {
-            string baseAddress = "http://localhost:9000/";
+            string baseAddress = "http://*:5000/";
 
             // Start OWIN host 
             using (WebApp.Start<Startup>(url: baseAddress))
