@@ -45,6 +45,10 @@ export class MapPage {
             map: this.map,
             position: { lat: element.Lat(), lng: element.Lng() }
           });
+          i++;
+          if(i % 25 === 0) {
+            setTimeout(1000);
+          }
         });
       })
       .catch(error => {

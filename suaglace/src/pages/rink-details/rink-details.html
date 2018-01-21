@@ -1,60 +1,69 @@
 <ion-header>
-    <ion-navbar>
-      <ion-title>
-        Rink details
-      </ion-title>
-      <ion-buttons end>
-        <button ion-button icon-only (click)="closeModal()">
-            <ion-icon item-right name="ios-close-outline"></ion-icon>
-        </button>
-      </ion-buttons>  
-    </ion-navbar>
-  </ion-header>
-  <ion-content indent class="outer-content">
+  <ion-navbar>
+    <ion-title>
+      {{rink.Parc}}
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="closeModal()">
+        <ion-icon item-right name="ios-close-outline"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-list>
 
-    <ion-list>
-      <ion-item>
-        <ion-input placeholder="Title"></ion-input>
-      </ion-item>
-      <ion-item>
-        <ion-input placeholder="Location"></ion-input>
-      </ion-item>
-    </ion-list>
-  
-    <ion-list>
-      <ion-item>
-        <ion-label>Start Date</ion-label>
-        <ion-datetime displayFormat="MMM DD YYYY" [(ngModel)]="event.month"></ion-datetime>
-      </ion-item>
-  
-  
-      <ion-item>
-        <ion-label>Start Time</ion-label>
-        <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeStarts"></ion-datetime>
-      </ion-item>
-  
-      <ion-item>
-        <ion-label>Ends</ion-label>
-        <ion-datetime displayFormat="MMM DD YYYY" [(ngModel)]="event.timeEnds"></ion-datetime>
-      </ion-item>
-  
-      <button ion-item>
-        <ion-label>Repeat</ion-label>
-        <ion-note item-end>Never</ion-note>
-      </button>
-  
-      <button ion-item>
-        <ion-label>Travel Time</ion-label>
-        <ion-note item-end>None</ion-note>
-      </button>
-    </ion-list>
-  
-    <ion-list>
-      <button ion-item>
-        <ion-label>Alert</ion-label>
-        <ion-note item-end>None</ion-note>
-      </button>
-    </ion-list>
-  
-  </ion-content>
-  
+    <ion-list-header>
+      Details
+    </ion-list-header>
+
+    <ion-item>
+      Cord
+    </ion-item>
+
+    <ion-item>
+      Duesenber
+    </ion-item>
+
+    <ion-item>
+      Hudson
+    </ion-item>
+
+    <ion-item>
+      Packard
+    </ion-item>
+
+    <ion-item>
+      Studebaker
+    </ion-item>
+
+  </ion-list>
+
+  <ion-list>
+
+    <ion-list-header>
+      Ice Quality
+    </ion-list-header>
+
+    <ion-item>
+      Cord
+    </ion-item>
+
+    <ion-item>
+      Duesenber
+    </ion-item>
+
+    <ion-item>
+      Hudson
+    </ion-item>
+
+    <ion-item>
+      Packard
+    </ion-item>
+
+    <ion-item>
+      Studebaker
+    </ion-item>
+
+  </ion-list>
+</ion-content>
