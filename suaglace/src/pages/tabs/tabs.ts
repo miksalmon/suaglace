@@ -11,7 +11,7 @@ export class TabsPage {
 
   tab1Root = MapPage;
   tab2Root = RinkListPage;
-  tab3Root = ProfilPage;
+  tab4Root = ProfilPage;
 
   constructor() {
 

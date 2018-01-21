@@ -3,7 +3,7 @@ import { ModalController, NavController } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
 import { HTTP } from '@ionic-native/http';
 import { Geolocation } from '@ionic-native/geolocation';
-import { RinkDetailsModal } from '../rink-details/rink-details';
+import { RinkDetailsPage } from '../rink-details/rink-details';
 
 declare var google: any;
 
@@ -103,7 +103,7 @@ export class MapPage {
 
   }
   openDetails(rink) {
-    let modal = this.modalCtrl.create(RinkDetailsModal, rink);
+    let modal = this.modalCtrl.create(RinkDetailsPage, rink);
     modal.onDidDismiss(rink => {
       console.log(rink);
     });
