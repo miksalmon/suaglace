@@ -14,27 +14,36 @@
   <ion-list>
 
     <ion-list-header>
-      Details
+      Détails
     </ion-list-header>
 
-    <ion-item>
-      Cord
+    <ion-item *ngIf="rink.Ouvert">\
+      <ion-label>État</ion-label>
+      <ion-label color="primary">Ouverte</ion-label>
+    </ion-item>
+    <ion-item *ngIf="!rink.Ouvert">
+      <ion-label>Status</ion-label>
+      <ion-label color="danger">Fermée</ion-label>
     </ion-item>
 
     <ion-item>
-      Duesenber
+      <ion-label>Participants</ion-label>
+      <ion-label>{{participants.length}}</ion-label>
     </ion-item>
 
     <ion-item>
-      Hudson
+      <ion-label>Type</ion-label>
+      <ion-label>{{rink.Nom}}</ion-label>
     </ion-item>
 
     <ion-item>
-      Packard
+      <ion-label>Arrondissement</ion-label>
+      <ion-label>{{rink.Arrondissement}}</ion-label>
     </ion-item>
 
     <ion-item>
-      Studebaker
+      <ion-label>Mise-à-jour</ion-label>
+      <ion-label>{{rink.DateMaj}}</ion-label>
     </ion-item>
 
   </ion-list>
@@ -42,27 +51,40 @@
   <ion-list>
 
     <ion-list-header>
-      Ice Quality
+      Qualité de la glace
     </ion-list-header>
 
     <ion-item>
-      Cord
+      <ion-label>Condition</ion-label>
+      <ion-label>{{rink.Condition}}</ion-label>
+
     </ion-item>
 
-    <ion-item>
-      Duesenber
+    <ion-item *ngIf="rink.Arrose">\
+      <ion-label>Arrosée</ion-label>
+      <ion-label color="primary">Oui</ion-label>
+    </ion-item>
+    <ion-item *ngIf="!rink.Arrose">
+      <ion-label>Arrosée</ion-label>
+      <ion-label color="danger">Non</ion-label>
     </ion-item>
 
-    <ion-item>
-      Hudson
+    <ion-item *ngIf="rink.Resurface">\
+      <ion-label>Resurfacée</ion-label>
+      <ion-label color="primary">Oui</ion-label>
+    </ion-item>
+    <ion-item *ngIf="!rink.Resurface">
+      <ion-label>Resurfacée</ion-label>
+      <ion-label color="danger">Non</ion-label>
     </ion-item>
 
-    <ion-item>
-      Packard
+    <ion-item *ngIf="rink.Deblaye">\
+      <ion-label>Déblayée</ion-label>
+      <ion-label color="primary">Oui</ion-label>
     </ion-item>
-
-    <ion-item>
-      Studebaker
+    <ion-item *ngIf="!rink.Deblaye">
+      <ion-label>Déblayée</ion-label>
+      <ion-label color="danger">Non</ion-label>
     </ion-item>
 
   </ion-list>
