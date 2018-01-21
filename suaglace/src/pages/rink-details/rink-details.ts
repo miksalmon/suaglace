@@ -1,6 +1,8 @@
 import { HTTP } from '@ionic-native/http';
 import { Component } from '@angular/core';
 import { ViewController, NavController, NavParams } from 'ionic-angular';
+import { ModalController } from 'ionic-angular/components/modal/modal-controller';
+import { PlayerListModal } from '../playerList/player-list';
 
 @Component({
   selector: 'page-rink-details',
@@ -17,7 +19,7 @@ export class RinkDetailsPage {
     'Id': '123456789'
   };
 
-  constructor(public viewCtrl: ViewController, public http: HTTP, public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public viewCtrl: ViewController, public http: HTTP, public navCtrl: NavController, public navParams: NavParams, public modalCtrl: ModalController) {
     this.rink = this.navParams.data;
     this.participants = this.http.get('http://00242053.ngrok.io/api/players/' + this.rink.Id, {}, {})
       .then(data => {
@@ -40,6 +42,10 @@ export class RinkDetailsPage {
       .catch(error => {
         console.log(error);
       });
+  }
+
+  openPlayers() {
+    this.modalCtrl.create(PlayerListModal, {players: this.participants});
   }
 
 }
