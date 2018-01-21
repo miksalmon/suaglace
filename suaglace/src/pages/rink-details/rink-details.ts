@@ -7,12 +7,14 @@ import { ViewController } from 'ionic-angular';
 })
 export class RinkDetailsModal {
 
+  public rink;
+
   constructor(public viewCtrl: ViewController) {
+    this.rink = viewCtrl.data;
   }
 
   closeModal() {
-    let data = { 'foo': 'bar' };
-    this.viewCtrl.dismiss(data);
+    this.viewCtrl.dismiss();
   }
 
   public event = {
