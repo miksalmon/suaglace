@@ -1,7 +1,7 @@
 ﻿using Owin;
 using System.Web.Http;
 
-namespace OwinSelfhostSample
+namespace server
 {
     public class Startup
     {
@@ -9,6 +9,9 @@ namespace OwinSelfhostSample
         // parameter in the WebApp.Start method.
         public void Configuration(IAppBuilder appBuilder)
         {
+            var iceRinkCollection = RinkCollection.GetInstance();
+            iceRinkCollection.Initialize();
+
             // Configure Web API for self-host. 
             HttpConfiguration config = new HttpConfiguration();
             config.Routes.MapHttpRoute(

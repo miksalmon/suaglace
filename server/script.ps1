@@ -15,7 +15,7 @@ foreach ($item in $data.patinoires) {
         'Resurface'      = If ($item.resurface) {$true} Else {$false};
         'Condition'      = $item.condition;
         'DateMaj'        = $item.arrondissement.date_maj;
-        'Id'             = $null;
+        'Id'             = "";
     }
 
     $item = New-Object -TypeName PSObject -Property $props

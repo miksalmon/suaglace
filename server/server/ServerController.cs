@@ -1,21 +1,25 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
+using Newtonsoft.Json;
 
-namespace OwinSelfhostSample
+namespace server
 {
     public class ServerController : ApiController
     {
         // GET api/server 
         // Gets all rinks
-        public IEnumerable<string> Get()
+        public string Get()
         {
-            return new string[] { "value1", "value2" };
+            var rinkCollection = RinkCollection.GetInstance();
+            return JsonConvert.SerializeObject(rinkCollection.Collection);
         }
 
         // GET api/server/5 
-        public string Get(int id)
+        public string Get([FromUri] string id)
         {
-            return "value";
+            var rinkCollection = RinkCollection.GetInstance();
+            var rink = rinkCollection.Collection.Find(r => r.Id == id);
+            return JsonConvert.SerializeObject(rink);
         }
     }
 }
