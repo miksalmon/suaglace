@@ -10,25 +10,25 @@
   <ion-list>
     <ion-item>
       <ion-label>Resurfacée</ion-label>
-      <ion-checkbox [(ngModel)]="resurface"></ion-checkbox>
+      <ion-checkbox [(ngModel)]="filtersProvider.resurface"></ion-checkbox>
     </ion-item>
 
     <ion-item>
       <ion-label>Arrosée</ion-label>
-      <ion-checkbox [(ngModel)]="arrose"></ion-checkbox>
+      <ion-checkbox [(ngModel)]="filtersProvider.arrose"></ion-checkbox>
     </ion-item>
 
     <ion-item>
       <ion-label>Deblayée</ion-label>
-      <ion-checkbox [(ngModel)]="deblaye"></ion-checkbox>
+      <ion-checkbox [(ngModel)]="filtersProvider.deblaye"></ion-checkbox>
     </ion-item>
 
     <ion-item>
       <ion-label>Condition</ion-label>
-      <ion-select [(ngModel)]="condition">
-        <ion-option value="e">Excellente</ion-option>
-        <ion-option value="b">Bonne</ion-option>
-        <ion-option value="m">Mauvaise</ion-option>
+      <ion-select [(ngModel)]="filtersProvider.condition">
+        <ion-option value="Excellente">Excellente</ion-option>
+        <ion-option value="Bonne">Bonne</ion-option>
+        <ion-option value="Mauvaise">Mauvaise</ion-option>
       </ion-select>
     </ion-item>
 

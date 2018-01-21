@@ -14,6 +14,7 @@ import { RinkDetailsPage } from './../pages/rink-details/rink-details';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { FiltersPage } from '../pages/filters/filters';
+import { FiltersProvider } from '../provider/filters-provider';
 
 @NgModule({
   declarations: [
@@ -42,9 +43,10 @@ import { FiltersPage } from '../pages/filters/filters';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    { provide: ErrorHandler, useClass: IonicErrorHandler },
     HTTP,
-    Geolocation
+    Geolocation,
+    FiltersProvider
   ]
 })
-export class AppModule {}
+export class AppModule { }
