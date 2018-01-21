@@ -13,6 +13,7 @@ namespace server
         public string Name { get; private set; }
         public string PreferedPosition { get; private set; }
         public string FavoriteRink { get; private set; }
+        public int Id { get; set; } 
 
         public User(string name, string preferedPosition, string favoriteRink)
         {
