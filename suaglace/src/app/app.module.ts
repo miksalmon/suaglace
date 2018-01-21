@@ -16,6 +16,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { FiltersPage } from '../pages/filters/filters';
 import { FiltersProvider } from '../provider/filters-provider';
 import { PlayerListModal } from '../pages/playerList/player-list';
+import { RinkProvider } from '../provider/rink-provider';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { PlayerListModal } from '../pages/playerList/player-list';
     { provide: ErrorHandler, useClass: IonicErrorHandler },
     HTTP,
     Geolocation,
-    FiltersProvider
+    FiltersProvider,
+    RinkProvider
   ]
 })
 export class AppModule { }

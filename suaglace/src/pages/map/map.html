@@ -8,7 +8,7 @@
   <div #map id="map"></div>
   <div *ngIf="selectedRink">
     <div class="btn-group">
-      <button (click)="joinGame(selectedRink)" type="button" class="btn btn-outline-primary btn-lg reserveButton">Joindre</button>
+      <button (click)="joinGame(selectedRink)" type="button" class="btn btn-outline-primary btn-lg reserveButton" [disabled]="rinkProvider.rink">Joindre</button>
       <button (click)="openDetails(selectedRink)" type="button" class="btn btn-primary btn-lg detailButton">Détails</button>
     </div>
   </div>

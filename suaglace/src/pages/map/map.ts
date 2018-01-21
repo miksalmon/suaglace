@@ -5,6 +5,8 @@ import { HTTP } from '@ionic-native/http';
 import { Geolocation } from '@ionic-native/geolocation';
 import { RinkDetailsPage } from '../rink-details/rink-details';
 
+import { RinkProvider } from '../../provider/rink-provider';
+
 declare var google: any;
 
 @Component({
@@ -24,7 +26,7 @@ export class MapPage {
     'Id': '123456789'
   };
 
-  constructor(public modalCtrl: ModalController, public navCtrl: NavController, private http: HTTP, private geolocation: Geolocation) {
+  constructor(public modalCtrl: ModalController, public navCtrl: NavController, private http: HTTP, private geolocation: Geolocation, public rinkProvider: RinkProvider) {
     setInterval(() => {
       this.selectedRink = this.selectedRink;
     }, 250);
@@ -115,6 +117,7 @@ export class MapPage {
   }
 
   joinGame(rink: any) {
+    this.rinkProvider.rink = rink;
     this.http.post('http://00242053.ngrok.io/api/rinks/' + rink.Id, this.user, {})
       .then(data => {
       })

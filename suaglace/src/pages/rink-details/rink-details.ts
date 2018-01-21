@@ -4,6 +4,8 @@ import { ViewController, NavController, NavParams } from 'ionic-angular';
 import { ModalController } from 'ionic-angular/components/modal/modal-controller';
 import { PlayerListModal } from '../playerList/player-list';
 
+import { RinkProvider } from '../../provider/rink-provider';
+
 @Component({
   selector: 'page-rink-details',
   templateUrl: 'rink-details.html'
@@ -19,7 +21,7 @@ export class RinkDetailsPage {
     'Id': '123456789'
   };
 
-  constructor(public viewCtrl: ViewController, public http: HTTP, public navCtrl: NavController, public navParams: NavParams, public modalCtrl: ModalController) {
+  constructor(public viewCtrl: ViewController, public http: HTTP, public navCtrl: NavController, public navParams: NavParams, public modalCtrl: ModalController, public rinkProvider: RinkProvider) {
     this.rink = this.navParams.data;
     this.participants = this.http.get('http://00242053.ngrok.io/api/players/' + this.rink.Id, {}, {})
       .then(data => {
@@ -36,6 +38,7 @@ export class RinkDetailsPage {
   }
 
   joinGame() {
+    this.rinkProvider.rink = this.rink;
     this.http.post('http://00242053.ngrok.io/api/rinks/' + this.rink.Id, this.user, {})
       .then(data => {
       })
