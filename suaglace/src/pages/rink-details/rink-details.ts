@@ -14,4 +14,10 @@ export class RinkDetailsModal {
     let data = { 'foo': 'bar' };
     this.viewCtrl.dismiss(data);
   }
+
+  public event = {
+    month: '1990-02-19',
+    timeStarts: '07:43',
+    timeEnds: '1990-02-20'
+  }
 }
