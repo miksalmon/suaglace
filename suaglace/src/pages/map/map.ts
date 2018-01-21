@@ -1,4 +1,8 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
+import { NavController } from 'ionic-angular';
+import { HttpClient } from '@angular/common/http';
+import { HTTP } from '@ionic-native/http';
+import { Geolocation } from '@ionic-native/geolocation';
 
 declare var google: any;
 
@@ -12,12 +16,14 @@ export class MapPage {
 
   map: any;
 
+  constructor(public navCtrl: NavController, private http: HTTP, private geolocation: Geolocation) { }
+
   ionViewDidLoad() {
     this.showMap();
   }
 
   showMap() {
-    const location = new google.maps.LatLng(45.504384, -73.612883);
+    const location = new google.maps.LatLng(45.504429, -73.612904);
 
     const options = {
       center: location,
@@ -33,6 +39,39 @@ export class MapPage {
     this.map = new google.maps.Map(this.mapRef.nativeElement, options);
     const HEC = new google.maps.LatLng(45.503363, -73.620758);
 
+    this.http.get('http://dcabb22e.ngrok.io/api/info', {}, {})
+      .then((data: any) => {
+        JSON.parse(JSON.parse(data.data)).forEach(element => {
+          var marker = new google.maps.Marker({
+            map: this.map,
+            position: { lat: element.Lat, lng: element.Lng }
+          });
+        });
+      })
+      .catch(error => {
+        console.log(error);
+      });
+
+    this.geolocation.getCurrentPosition().then((resp) => {
+      var pos = {
+        lat: resp.coords.latitude,
+        lng: resp.coords.longitude
+      };
+      this.map.setCenter(pos);
+      var icon = {
+        url: 'http://simpleicon.com/wp-content/uploads/map-marker-17.png',
+        scaledSize: new google.maps.Size(50, 50),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(25, 41.5)
+      };
+      var marker = new google.maps.Marker({
+        map: this.map,
+        position: pos,
+        icon: icon
+      });
+    }).catch((error) => {
+      console.log('Error getting location', error);
+    });
 
     const contentString = '<div id="content">' +
       '<div id="siteNotice">' +

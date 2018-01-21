@@ -1,12 +1,11 @@
-﻿using System.Collections.Generic;
-using System.Web.Http;
+﻿using System.Web.Http;
 using Newtonsoft.Json;
 
 namespace server
 {
-    public class ServerController : ApiController
+    public class InfoController : ApiController
     {
-        // GET api/server 
+        // GET api/info 
         // Gets all rinks
         public string Get()
         {
@@ -14,7 +13,7 @@ namespace server
             return JsonConvert.SerializeObject(rinkCollection);
         }
 
-        // GET api/server/5 
+        // GET api/info/5 
         public string Get([FromUri] string id)
         {
             var rinkCollection = RinkCollection.GetCollection();

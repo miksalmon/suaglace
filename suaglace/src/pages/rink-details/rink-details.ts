@@ -1,3 +1,4 @@
+import { HTTP } from '@ionic-native/http';
 import { Component } from '@angular/core';
 import { ViewController } from 'ionic-angular';
 
@@ -7,17 +8,38 @@ import { ViewController } from 'ionic-angular';
 })
 export class RinkDetailsModal {
 
-  constructor(public viewCtrl: ViewController) {
+  public rink;
+  public participants;
+  public user = {
+    'Name': 'Alain',
+    'PreferedPosition': 'Forward',
+    'FavoriteRink': 'Parc Beaubien',
+    'Id': '123456789'
+  };
+
+  constructor(public viewCtrl: ViewController, public http: HTTP) {
+    this.rink = viewCtrl.data;
+    this.participants = this.http.get('http://00242053.ngrok.io/api/players', {}, {})
+      .then(data => {
+        this.participants = JSON.parse(JSON.parse(data.data));
+      })
+      .catch(error => {
+        console.log(error);
+      });
   }
 
   closeModal() {
-    let data = { 'foo': 'bar' };
-    this.viewCtrl.dismiss(data);
+    this.viewCtrl.dismiss();
   }
 
-  public event = {
-    month: '1990-02-19',
-    timeStarts: '07:43',
-    timeEnds: '1990-02-20'
+  joinGame() {
+    console.log(this.user);
+    this.http.post('http://00242053.ngrok.io/api/rinks' + this.rink.Id, this.user, {})
+      .then(data => {
+      })
+      .catch(error => {
+        console.log(error);
+      });
   }
+
 }

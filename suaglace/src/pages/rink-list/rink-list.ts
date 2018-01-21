@@ -12,9 +12,9 @@ export class RinkListPage {
   public rinks;
 
   constructor(public modalCtrl: ModalController, public navCtrl: NavController, private http: HTTP) {
-    this.http.get('http://c861e342.ngrok.io/api/server', {}, {})
+    this.http.get('http://00242053.ngrok.io/api/info', {}, {})
     .then(data => {
-      console.log(JSON.parse(data.data));
+      this.rinks = JSON.parse(JSON.parse(data.data));
     })
     .catch(error => {
       console.log(error);
@@ -22,8 +22,11 @@ export class RinkListPage {
   }
 
 
-  openRinkDetails() {
-    let modal = this.modalCtrl.create(RinkDetailsModal);
+  openRinkDetails(rink) {
+    let modal = this.modalCtrl.create(RinkDetailsModal, rink);
+    modal.onDidDismiss(rink => {
+      console.log(rink);
+    });
     modal.present();
   }
 

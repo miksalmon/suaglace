@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Rink List
+      Liste des patinoires
     </ion-title>
     <ion-buttons end>
       <button ion-button icon-only>
@@ -12,8 +12,9 @@
 </ion-header>
 <ion-content>
   <ion-list inset>
-      <button ion-item  *ngFor="let rink of rinks" (click)="openRinkDetails()">
-        {{ rink }}
+      <button ion-item  *ngFor="let rink of rinks" (click)="openRinkDetails(rink)">
+        <h2>{{rink.Parc}}</h2>
+        <h3>{{rink.Nom}}</h3>    
       </button>
     </ion-list>
 </ion-content>
