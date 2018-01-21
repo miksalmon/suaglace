@@ -86,6 +86,6 @@
       <ion-label>Déblayée</ion-label>
       <ion-label color="danger">Non</ion-label>
     </ion-item>
-    <button ion-button block (click)="joinGame()">Joindre</button>
+    <button ion-button block (click)="joinGame()" [disabled]="rinkProvider.rink">Joindre</button>
   </ion-list>
 </ion-content>

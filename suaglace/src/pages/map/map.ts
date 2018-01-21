@@ -5,6 +5,8 @@ import { HTTP } from '@ionic-native/http';
 import { Geolocation } from '@ionic-native/geolocation';
 import { RinkDetailsPage } from '../rink-details/rink-details';
 
+import { RinkProvider } from '../../provider/rink-provider';
+
 declare var google: any;
 
 @Component({
@@ -17,7 +19,7 @@ export class MapPage {
 
   map: any;
 
-  constructor(public modalCtrl: ModalController, public navCtrl: NavController, private http: HTTP, private geolocation: Geolocation) { }
+  constructor(public modalCtrl: ModalController, public navCtrl: NavController, private http: HTTP, private geolocation: Geolocation, public rinkProvider: RinkProvider) { }
 
   ionViewDidLoad() {
     this.showMap();
@@ -97,16 +99,17 @@ export class MapPage {
       infowindow.open(this.map, marker);
     });
 
-    google.maps.event.addDomListener(marker, 'click', function() {
+    google.maps.event.addDomListener(marker, 'click', function () {
       console.log("test")
-  });
+    });
 
   }
   openDetails(rink) {
     this.navCtrl.push(RinkDetailsPage)
   }
 
-  openReserve() {
+  openReserve(rink) {
+    this.rinkProvider.rink = 10;
     console.log("Open Reserve");
   }
 
