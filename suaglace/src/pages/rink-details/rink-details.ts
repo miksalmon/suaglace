@@ -48,7 +48,8 @@ export class RinkDetailsPage {
   }
 
   openPlayers() {
-    this.modalCtrl.create(PlayerListModal, {players: this.participants});
+    let modal = this.modalCtrl.create(PlayerListModal, {players: this.participants});
+    modal.present();
   }
 
 }

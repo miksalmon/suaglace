@@ -17,4 +17,9 @@ export class PlayerListModal {
   constructor(public modalCtrl: ModalController, public viewCtrl: ViewController, params: NavParams) {
     this.playerList = params.get('players');
   }
+
+  closePage() {
+    this.viewCtrl.dismiss();
+  }
+
 }
