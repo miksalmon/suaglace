@@ -40,16 +40,14 @@ export class MapPage {
 
     this.http.get('http://dcabb22e.ngrok.io/api/server', {}, {})
       .then((data: any) => {
+        var i = 0;
         JSON.parse(JSON.parse(data.data)).forEach(value => {
           var geocoder = new google.maps.Geocoder;
           geocoder.geocode({
             address: value.Parc,
-            componentRestrictions: {
-              country: 'CA',
-              locality: 'Montreal'
-            }
           }, (results, status) => {
             if (status == 'OK') {
+              console.log(value.Parc);
               this.map.setCenter(results[0].geometry.location);
               var marker = new google.maps.Marker({
                 map: this.map,
@@ -57,6 +55,10 @@ export class MapPage {
               });
             }
           });
+          i++;
+          if(i % 25 === 0) {
+            setTimeout(1000);
+          }
         });
       })
       .catch(error => {
