@@ -6,23 +6,24 @@ using System.Threading.Tasks;
 
 namespace server
 {
-    class UserManager
+    static class UserManager
     {
-        public List<User> CurrentUsers { get; private set; }
-        public int UniqueId { get; private set; } = 0;
+        static public List<User> CurrentUsers { get; private set; }
+        static public int UniqueId { get; private set; } = 0;
 
-        public UserManager()
+        static UserManager ()
         {
-
+            CurrentUsers = new List<User>();
         }
 
-        public void AddUser(User user)
+
+        static public void AddUser(User user)
         {
             user.Id = UniqueId++;
             CurrentUsers.Add(user);
         }
 
-        public void  RemoveUser(User userToRemove)
+        static public void  RemoveUser(User userToRemove)
         {
             CurrentUsers.RemoveAll(user => user.Id == userToRemove.Id);
         }

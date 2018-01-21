@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace server
 {
-    class User
+    public class User
     {
         private const string DEFAULT_FAVORITE_RINK = "No favorite rink";
 
