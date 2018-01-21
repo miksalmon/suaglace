@@ -79,9 +79,6 @@ export class MapPage {
       '<h5 id="firstHeading" class="firstHeading">Patinoire HEC</h5>' +
       '<div id="bodyContent">' +
       '<b>Adresse</b> : 3000 Chemin de la Côte-Sainte-Catherine, Montréal, QC H3T 2A7' +
-      '<br>' + '<br>' +
-      '<button type="button" class="btn btn-outline-primary btn-lg viewDetails">Reserve</button>' +
-      '<button type="button" class="btn btn-primary btn-lg viewDetails">View Details</button>' +
       '</div>' +
       '</div>';
 
@@ -95,8 +92,21 @@ export class MapPage {
       map: this.map,
       title: 'HEC Montreal'
     });
-    marker.addListener('click', function () {
+    marker.addListener('click', () => {
       infowindow.open(this.map, marker);
     });
+
+    google.maps.event.addDomListener(marker, 'click', function() {
+      console.log("test")
+  });
+
   }
+  openDetails() {
+    console.log("Open Details");
+  }
+
+  openReserve() {
+    console.log("Open Reserve");
+  }
+
 }
