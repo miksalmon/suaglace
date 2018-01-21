@@ -68,8 +68,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IceRinkCollection.cs" />
-    <Compile Include="IceRink.cs" />
+    <Compile Include="RinkCollection.cs" />
+    <Compile Include="Rink.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SdkAssemblyLoader.cs" />
