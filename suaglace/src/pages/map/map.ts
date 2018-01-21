@@ -22,7 +22,7 @@ export class MapPage {
   }
 
   showMap() {
-    const location = new google.maps.LatLng(45.504384, -73.612883);
+    const location = new google.maps.LatLng(45.504429, -73.612904);
 
     const options = {
       center: location,
@@ -50,6 +50,21 @@ export class MapPage {
       .catch(error => {
         console.log(error);
       });
+
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((position) => {
+          var pos = {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude
+          };
+          this.map.setCenter(pos);
+          var marker = new google.maps.Marker({
+            map: this.map,
+            position: pos,
+            icon: 'http://simpleicon.com/wp-content/uploads/map-marker-17.png'
+          });
+        }, () => { console.log('errrrrroooooooor') });
+      }
 
     const contentString = '<div id="content">' +
       '<div id="siteNotice">' +
