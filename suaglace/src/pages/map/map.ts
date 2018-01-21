@@ -2,6 +2,7 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
 import { HTTP } from '@ionic-native/http';
+import { Geolocation } from '@ionic-native/geolocation';
 
 declare var google: any;
 
@@ -15,14 +16,14 @@ export class MapPage {
 
   map: any;
 
-  constructor(public navCtrl: NavController, private http: HTTP) { }
+  constructor(public navCtrl: NavController, private http: HTTP, private geolocation: Geolocation) { }
 
   ionViewDidLoad() {
     this.showMap();
   }
 
   showMap() {
-    const location = new google.maps.LatLng(45.504384, -73.612883);
+    const location = new google.maps.LatLng(45.504429, -73.612904);
 
     const options = {
       center: location,
@@ -51,15 +52,33 @@ export class MapPage {
         console.log(error);
       });
 
+    this.geolocation.getCurrentPosition().then((resp) => {
+      var pos = {
+        lat: resp.coords.latitude,
+        lng: resp.coords.longitude
+      };
+      this.map.setCenter(pos);
+      var icon = {
+        url: 'http://simpleicon.com/wp-content/uploads/map-marker-17.png',
+        scaledSize: new google.maps.Size(50, 50),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(25, 41.5)
+      };
+      var marker = new google.maps.Marker({
+        map: this.map,
+        position: pos,
+        icon: icon
+      });
+    }).catch((error) => {
+      console.log('Error getting location', error);
+    });
+
     const contentString = '<div id="content">' +
       '<div id="siteNotice">' +
       '</div>' +
       '<h5 id="firstHeading" class="firstHeading">Patinoire HEC</h5>' +
       '<div id="bodyContent">' +
       '<b>Adresse</b> : 3000 Chemin de la Côte-Sainte-Catherine, Montréal, QC H3T 2A7' +
-      '<br>' + '<br>' +
-      '<button type="button" class="btn btn-outline-primary btn-lg viewDetails">Reserve</button>' +
-      '<button type="button" class="btn btn-primary btn-lg viewDetails">View Details</button>' +
       '</div>' +
       '</div>';
 
@@ -73,8 +92,21 @@ export class MapPage {
       map: this.map,
       title: 'HEC Montreal'
     });
-    marker.addListener('click', function () {
+    marker.addListener('click', () => {
       infowindow.open(this.map, marker);
     });
+
+    google.maps.event.addDomListener(marker, 'click', function() {
+      console.log("test")
+  });
+
   }
+  openDetails() {
+    console.log("Open Details");
+  }
+
+  openReserve() {
+    console.log("Open Reserve");
+  }
+
 }

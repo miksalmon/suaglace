@@ -15,7 +15,6 @@ export class RinkListPage {
   constructor(public navCtrl: NavController, private http: HTTP) {
     this.http.get('http://dcabb22e.ngrok.io/api/info', {}, {})
     .then(data => {
-      console.log(data.data);
       this.rinks = JSON.parse(JSON.parse(data.data));
     })
     .catch(error => {

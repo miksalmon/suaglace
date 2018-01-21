@@ -1,9 +1,21 @@
 page-map {
     #map {
         height: 100%;
+        width: 100%;
     }
     .viewDetails {
         margin-bottom: 2px;
         margin-left: 2px;
+    }
+    .btn-group {
+        position: absolute;
+        bottom:2px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .reserveButton {
+        background-color: white;
     }
 }
