@@ -75,6 +75,7 @@
     <Compile Include="RinkManager.cs" />
     <Compile Include="ServerController.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
