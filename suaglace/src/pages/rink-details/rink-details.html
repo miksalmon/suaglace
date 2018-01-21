@@ -13,9 +13,9 @@
 <ion-content>
   <ion-list>
 
-    <ion-list-header>
+    <p>
       Détails
-    </ion-list-header>
+    </p>
 
     <ion-item *ngIf="rink.Ouvert">\
       <ion-label>État</ion-label>
@@ -50,9 +50,9 @@
 
   <ion-list>
 
-    <ion-list-header>
+    <p>
       Qualité de la glace
-    </ion-list-header>
+    </p>
 
     <ion-item>
       <ion-label>Condition</ion-label>
@@ -86,8 +86,6 @@
       <ion-label>Déblayée</ion-label>
       <ion-label color="danger">Non</ion-label>
     </ion-item>
-
+    <button ion-button block>Joindre</button>
   </ion-list>
-
-  <button ion-button round (click)="joinGame()">Joindre</button>
 </ion-content>
