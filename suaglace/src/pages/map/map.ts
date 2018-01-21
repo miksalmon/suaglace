@@ -16,8 +16,13 @@ export class MapPage {
   @ViewChild('map') mapRef: ElementRef;
 
   map: any;
+  public selectedRink : any;
 
-  constructor(public modalCtrl: ModalController, public navCtrl: NavController, private http: HTTP, private geolocation: Geolocation) { }
+  constructor(public modalCtrl: ModalController, public navCtrl: NavController, private http: HTTP, private geolocation: Geolocation) {
+    setInterval(() => {
+      this.selectedRink = this.selectedRink;
+    }, 250);
+  }
 
   ionViewDidLoad() {
     this.showMap();
@@ -38,20 +43,32 @@ export class MapPage {
     }
 
     this.map = new google.maps.Map(this.mapRef.nativeElement, options);
-    const HEC = new google.maps.LatLng(45.503363, -73.620758);
 
     this.http.get('http://00242053.ngrok.io/api/info', {}, {})
-      .then((data: any) => {
-        JSON.parse(JSON.parse(data.data)).forEach(element => {
-          var marker = new google.maps.Marker({
-            map: this.map,
-            position: { lat: element.Lat, lng: element.Lng }
-          });
-        });
-      })
-      .catch(error => {
-        console.log(error);
+    .then((data: any) => {
+      JSON.parse(JSON.parse(data.data)).forEach(element => {
+      console.log(element);
+      var marker = new google.maps.Marker({
+        map: this.map,
+        position: { lat: element.Lat, lng: element.Lng }
       });
+      var infowindow = new google.maps.InfoWindow({
+        content: this.getcontentString(element),
+        maxWidth: 200
+      });
+      marker.addListener('click', () => {
+        infowindow.open(this.map, marker);
+      });
+      google.maps.event.addDomListener(marker, 'click', () => {
+        console.log('test');
+        this.selectedRink = element;
+        console.log(this.selectedRink);
+      });
+    });
+  })
+  .catch(error => {
+    console.log(error);
+  });
 
     this.geolocation.getCurrentPosition().then((resp) => {
       var pos = {
@@ -73,41 +90,29 @@ export class MapPage {
     }).catch((error) => {
       console.log('Error getting location', error);
     });
-
-    const contentString = '<div id="content">' +
-      '<div id="siteNotice">' +
-      '</div>' +
-      '<h5 id="firstHeading" class="firstHeading">Patinoire HEC</h5>' +
-      '<div id="bodyContent">' +
-      '<b>Adresse</b> : 3000 Chemin de la Côte-Sainte-Catherine, Montréal, QC H3T 2A7' +
-      '</div>' +
-      '</div>';
-
-    var infowindow = new google.maps.InfoWindow({
-      content: contentString,
-      maxWidth: 200
-    });
-
-    var marker = new google.maps.Marker({
-      position: HEC,
-      map: this.map,
-      title: 'HEC Montreal'
-    });
-    marker.addListener('click', () => {
-      infowindow.open(this.map, marker);
-    });
-
-    google.maps.event.addDomListener(marker, 'click', function() {
-      console.log("test")
-  });
-
   }
+
+  getcontentString(element: any): String {
+    console.log(element);
+    return '<div id=“content”>' +
+      '<div id=“siteNotice”>' +
+      '</div>' +
+      '<h5 id=“firstHeading” class=“firstHeading”>' + element.Parc + '</h5>' +
+      '<div id=“bodyContent”>' +
+      '<b>Type</b> :' + element.Nom +
+      '</div>' +
+      '</div>'
+  }
+
   openDetails(rink) {
     this.navCtrl.push(RinkDetailsPage)
   }
 
-  openReserve() {
-    console.log("Open Reserve");
+  openReserve(rink: any) {
+    console.log(rink);
   }
 
+  getVisibility() {
+    return this.selectedRink ? 'visible' : 'hidden';
+  }
 }
