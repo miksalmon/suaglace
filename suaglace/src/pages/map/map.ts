@@ -1,5 +1,7 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { HttpClient } from '@angular/common/http';
+import { HTTP } from '@ionic-native/http';
 
 declare var google: any;
 
@@ -13,7 +15,7 @@ export class MapPage {
 
   map: any;
 
-  constructor(public navCtrl: NavController) { }
+  constructor(public navCtrl: NavController, private http: HTTP) { }
 
   ionViewDidLoad() {
     this.showMap();
@@ -36,6 +38,30 @@ export class MapPage {
     this.map = new google.maps.Map(this.mapRef.nativeElement, options);
     const HEC = new google.maps.LatLng(45.503363, -73.620758);
 
+    this.http.get('http://dcabb22e.ngrok.io/api/server', {}, {})
+      .then((data: any) => {
+        JSON.parse(JSON.parse(data.data)).forEach(value => {
+          var geocoder = new google.maps.Geocoder;
+          geocoder.geocode({
+            address: value.Parc,
+            componentRestrictions: {
+              country: 'CA',
+              locality: 'Montreal'
+            }
+          }, (results, status) => {
+            if (status == 'OK') {
+              this.map.setCenter(results[0].geometry.location);
+              var marker = new google.maps.Marker({
+                map: this.map,
+                position: { lat: results[0].geometry.location.lat(), lng: results[0].geometry.location.lng() }
+              });
+            }
+          });
+        });
+      })
+      .catch(error => {
+        console.log(error);
+      });
 
     const contentString = '<div id="content">' +
       '<div id="siteNotice">' +
