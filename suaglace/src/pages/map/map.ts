@@ -15,8 +15,13 @@ export class MapPage {
   @ViewChild('map') mapRef: ElementRef;
 
   map: any;
+  public selectedRink : any;
 
-  constructor(public modalCtrl: ModalController, public navCtrl: NavController, private http: HTTP, private geolocation: Geolocation) { }
+  constructor(public modalCtrl: ModalController, public navCtrl: NavController, private http: HTTP, private geolocation: Geolocation) {
+    setInterval(() => {
+      this.selectedRink = this.selectedRink;
+    }, 250);
+  }
 
   ionViewDidLoad() {
     this.showMap();
@@ -53,8 +58,10 @@ export class MapPage {
       marker.addListener('click', () => {
         infowindow.open(this.map, marker);
       });
-      google.maps.event.addDomListener(marker, 'click', function () {
+      google.maps.event.addDomListener(marker, 'click', () => {
         console.log('test');
+        this.selectedRink = element;
+        console.log(this.selectedRink);
       });
     });
 
@@ -92,11 +99,15 @@ export class MapPage {
       '</div>'
   }
 
-  openDetails() {
-
+  openDetails(rink: any) {
+    console.log(rink);
   }
 
-  openReserve() {
-    console.log('Open Reserve');
+  openReserve(rink: any) {
+    console.log(rink);
+  }
+
+  getVisibility() {
+    return this.selectedRink ? 'visible' : 'hidden';
   }
 }
