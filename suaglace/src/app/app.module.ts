@@ -17,6 +17,7 @@ import { FiltersPage } from '../pages/filters/filters';
 import { FiltersProvider } from '../provider/filters-provider';
 import { PlayerListModal } from '../pages/playerList/player-list';
 import { RinkProvider } from '../provider/rink-provider';
+import { PatinoirePage } from '../pages/patinoire/patinoire';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { RinkProvider } from '../provider/rink-provider';
     TabsPage,
     RinkDetailsPage,
     FiltersPage,
-    PlayerListModal
+    PlayerListModal,
+    PatinoirePage
   ],
   imports: [
     BrowserModule,
@@ -42,7 +44,8 @@ import { RinkProvider } from '../provider/rink-provider';
     TabsPage,
     RinkDetailsPage,
     FiltersPage,
-    PlayerListModal
+    PlayerListModal,
+    PatinoirePage
   ],
   providers: [
     StatusBar,
