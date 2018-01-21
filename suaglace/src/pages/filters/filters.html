@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Filtres
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label>Resurfacée</ion-label>
+      <ion-checkbox [(ngModel)]="resurface"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Arrosée</ion-label>
+      <ion-checkbox [(ngModel)]="arrose"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Deblayée</ion-label>
+      <ion-checkbox [(ngModel)]="deblaye"></ion-checkbox>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Condition</ion-label>
+      <ion-select [(ngModel)]="condition">
+        <ion-option value="e">Excellente</ion-option>
+        <ion-option value="b">Bonne</ion-option>
+        <ion-option value="m">Mauvaise</ion-option>
+      </ion-select>
+    </ion-item>
+
+  </ion-list>
+</ion-content>
