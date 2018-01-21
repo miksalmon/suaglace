@@ -11,7 +11,6 @@ export class MapPage {
 
   @ViewChild('map') mapRef: ElementRef;
 
-
   map: any;
 
   constructor(public navCtrl: NavController) { }

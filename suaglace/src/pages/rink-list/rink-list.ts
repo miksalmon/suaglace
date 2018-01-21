@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { ModalController, NavController } from 'ionic-angular';
+import { RinkDetailsModal } from '../rink-details/rink-details';
 
 @Component({
   selector: 'page-rink-list',
@@ -7,8 +8,14 @@ import { NavController } from 'ionic-angular';
 })
 export class RinkListPage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public modalCtrl: ModalController, public navCtrl: NavController) {
 
+  }
+
+  openRinkDetails() {
+    let modal = this.modalCtrl.create(RinkDetailsModal);
+    
+    modal.present();
   }
 
 }
