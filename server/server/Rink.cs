@@ -20,5 +20,7 @@ namespace server
         public string Condition { get; set; }
         public bool Deblaye { get; set; }
         public DateTime DateMaj { get; set; }
+        public double Lat { get; set; }
+        public double Lng { get; set; }
     }
 }

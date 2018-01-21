@@ -6,24 +6,39 @@ using System.Threading.Tasks;
 
 namespace server
 {
-    class RinkManager
+    static class RinkManager
     {
-        public List<Rink> Rinks { get; private set; }
+        static public List<Rink> Rinks { get; private set; }
 
-        public Dictionary<string, List<User>> CurrentPlayers { get; private set; }
+        static public Dictionary<string, List<User>> CurrentPlayers { get; private set; }
 
-        public RinkManager()
+        static RinkManager()
         {
             Rinks = RinkCollection.GetCollection();
-            Rinks.ForEach(rink => CurrentPlayers.Add(rink.Id, new List<User>()));
             CurrentPlayers = new Dictionary<string, List<User>>();
+            Rinks.ForEach(rink => CurrentPlayers.Add(rink.Id, new List<User>()));            
         }
 
-        public void JoinRink(User player, string rinkId)
+        static public void JoinRink(User player, string rinkId)
         {
             List<User> players;
             CurrentPlayers.TryGetValue(rinkId, out players);
-            players.Add(player);
+            if(players != null)
+            {
+                players.Add(player);
+                Console.WriteLine("Added player {0} to rink {1}", player.Id, rinkId);
+            }            
+        }
+
+        static public void LeaveRink(User playerToRemove, string rinkId)
+        {
+            List<User> players;
+            CurrentPlayers.TryGetValue(rinkId, out players);
+            if(players != null)
+            {
+                players.RemoveAll(player => player.Id == playerToRemove.Id);
+                Console.WriteLine("Removed player {0} from rink {1}", playerToRemove.Id, rinkId);
+            }
         }
     }
 }
