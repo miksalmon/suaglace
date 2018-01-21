@@ -16,7 +16,13 @@ export class MapPage {
   @ViewChild('map') mapRef: ElementRef;
 
   map: any;
-  public selectedRink : any;
+  public selectedRink: any;
+  public user = {
+    'Name': 'Samuel Chapleau',
+    'PreferedPosition': 'Attaquant',
+    'FavoriteRink': 'Parc Beaubien',
+    'Id': '123456789'
+  };
 
   constructor(public modalCtrl: ModalController, public navCtrl: NavController, private http: HTTP, private geolocation: Geolocation) {
     setInterval(() => {
@@ -45,30 +51,30 @@ export class MapPage {
     this.map = new google.maps.Map(this.mapRef.nativeElement, options);
 
     this.http.get('http://00242053.ngrok.io/api/info', {}, {})
-    .then((data: any) => {
-      JSON.parse(JSON.parse(data.data)).forEach(element => {
-      console.log(element);
-      var marker = new google.maps.Marker({
-        map: this.map,
-        position: { lat: element.Lat, lng: element.Lng }
+      .then((data: any) => {
+        JSON.parse(JSON.parse(data.data)).forEach(element => {
+          console.log(element);
+          var marker = new google.maps.Marker({
+            map: this.map,
+            position: { lat: element.Lat, lng: element.Lng }
+          });
+          var infowindow = new google.maps.InfoWindow({
+            content: this.getcontentString(element),
+            maxWidth: 200
+          });
+          marker.addListener('click', () => {
+            infowindow.open(this.map, marker);
+          });
+          google.maps.event.addDomListener(marker, 'click', () => {
+            console.log('test');
+            this.selectedRink = element;
+            console.log(this.selectedRink);
+          });
+        });
+      })
+      .catch(error => {
+        console.log(error);
       });
-      var infowindow = new google.maps.InfoWindow({
-        content: this.getcontentString(element),
-        maxWidth: 200
-      });
-      marker.addListener('click', () => {
-        infowindow.open(this.map, marker);
-      });
-      google.maps.event.addDomListener(marker, 'click', () => {
-        console.log('test');
-        this.selectedRink = element;
-        console.log(this.selectedRink);
-      });
-    });
-  })
-  .catch(error => {
-    console.log(error);
-  });
 
     this.geolocation.getCurrentPosition().then((resp) => {
       var pos = {
@@ -105,11 +111,16 @@ export class MapPage {
   }
 
   openDetails(rink) {
-    this.navCtrl.push(RinkDetailsPage)
+    this.navCtrl.push(RinkDetailsPage, rink);
   }
 
-  openReserve(rink: any) {
-    console.log(rink);
+  joinGame(rink: any) {
+    this.http.post('http://00242053.ngrok.io/api/rinks/' + rink.Id, this.user, {})
+      .then(data => {
+      })
+      .catch(error => {
+        console.log(error);
+      });
   }
 
   getVisibility() {
