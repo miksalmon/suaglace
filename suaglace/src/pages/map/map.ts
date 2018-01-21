@@ -1,8 +1,9 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { ModalController, NavController } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
 import { HTTP } from '@ionic-native/http';
 import { Geolocation } from '@ionic-native/geolocation';
+import { RinkDetailsModal } from '../rink-details/rink-details';
 
 declare var google: any;
 
@@ -16,7 +17,7 @@ export class MapPage {
 
   map: any;
 
-  constructor(public navCtrl: NavController, private http: HTTP, private geolocation: Geolocation) { }
+  constructor(public modalCtrl: ModalController, public navCtrl: NavController, private http: HTTP, private geolocation: Geolocation) { }
 
   ionViewDidLoad() {
     this.showMap();
@@ -101,8 +102,12 @@ export class MapPage {
   });
 
   }
-  openDetails() {
-    console.log("Open Details");
+  openDetails(rink) {
+    let modal = this.modalCtrl.create(RinkDetailsModal, rink);
+    modal.onDidDismiss(rink => {
+      console.log(rink);
+    });
+    modal.present();
   }
 
   openReserve() {
