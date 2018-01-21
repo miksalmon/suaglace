@@ -1,6 +1,7 @@
+import { FiltersPage } from './../filters/filters';
 import { Component } from '@angular/core';
-import { ModalController, NavController } from 'ionic-angular';
-import { RinkDetailsModal } from '../rink-details/rink-details';
+import { NavController } from 'ionic-angular';
+import { RinkDetailsPage } from '../rink-details/rink-details';
 import { HTTP } from '@ionic-native/http';
 
 @Component({
@@ -11,8 +12,8 @@ export class RinkListPage {
 
   public rinks;
 
-  constructor(public modalCtrl: ModalController, public navCtrl: NavController, private http: HTTP) {
-    this.http.get('http://00242053.ngrok.io/api/info', {}, {})
+  constructor(public navCtrl: NavController, private http: HTTP) {
+    this.http.get('http://dcabb22e.ngrok.io/api/info', {}, {})
     .then(data => {
       this.rinks = JSON.parse(JSON.parse(data.data));
     })
@@ -21,13 +22,13 @@ export class RinkListPage {
     });
   }
 
+  openFilters() {
+    console.log('push');
+    this.navCtrl.push(FiltersPage)
+  }
 
   openRinkDetails(rink) {
-    let modal = this.modalCtrl.create(RinkDetailsModal, rink);
-    modal.onDidDismiss(rink => {
-      console.log(rink);
-    });
-    modal.present();
+    this.navCtrl.push(RinkDetailsPage)
   }
 
 }

@@ -1,12 +1,12 @@
 import { HTTP } from '@ionic-native/http';
 import { Component } from '@angular/core';
-import { ViewController } from 'ionic-angular';
+import { ViewController, NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-rink-details',
   templateUrl: 'rink-details.html'
 })
-export class RinkDetailsModal {
+export class RinkDetailsPage {
 
   public rink;
   public participants;
@@ -17,7 +17,7 @@ export class RinkDetailsModal {
     'Id': '123456789'
   };
 
-  constructor(public viewCtrl: ViewController, public http: HTTP) {
+  constructor(public viewCtrl: ViewController, public http: HTTP, public navCtrl: NavController) {
     this.rink = viewCtrl.data;
     this.participants = this.http.get('http://00242053.ngrok.io/api/players', {}, {})
       .then(data => {
@@ -28,8 +28,9 @@ export class RinkDetailsModal {
       });
   }
 
-  closeModal() {
+  closePage() {
     this.viewCtrl.dismiss();
+    this.navCtrl.pop();
   }
 
   joinGame() {
