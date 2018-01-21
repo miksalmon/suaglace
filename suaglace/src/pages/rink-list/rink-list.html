@@ -12,7 +12,7 @@
 </ion-header>
 <ion-content>
   <ion-list inset>
-      <button ion-item  *ngFor="let rink of rinks" (click)="openRinkDetails(rink)">
+      <button ion-item  *ngFor="let rink of getRinks()" (click)="openRinkDetails(rink)">
         <h2>{{rink.Parc}}</h2>
         <h3>{{rink.Nom}}</h3>    
       </button>
