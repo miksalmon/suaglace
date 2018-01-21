@@ -3,7 +3,7 @@ import { ModalController, NavController } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
 import { HTTP } from '@ionic-native/http';
 import { Geolocation } from '@ionic-native/geolocation';
-import { RinkDetailsModal } from '../rink-details/rink-details';
+import { RinkDetailsPage } from '../rink-details/rink-details';
 
 declare var google: any;
 
@@ -40,7 +40,7 @@ export class MapPage {
     this.map = new google.maps.Map(this.mapRef.nativeElement, options);
     const HEC = new google.maps.LatLng(45.503363, -73.620758);
 
-    this.http.get('http://dcabb22e.ngrok.io/api/info', {}, {})
+    this.http.get('http://00242053.ngrok.io/api/info', {}, {})
       .then((data: any) => {
         JSON.parse(JSON.parse(data.data)).forEach(element => {
           var marker = new google.maps.Marker({
@@ -103,11 +103,7 @@ export class MapPage {
 
   }
   openDetails(rink) {
-    let modal = this.modalCtrl.create(RinkDetailsModal, rink);
-    modal.onDidDismiss(rink => {
-      console.log(rink);
-    });
-    modal.present();
+    this.navCtrl.push(RinkDetailsPage)
   }
 
   openReserve() {

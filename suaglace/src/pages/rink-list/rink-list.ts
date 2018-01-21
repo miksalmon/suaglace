@@ -15,13 +15,13 @@ export class RinkListPage {
   public rinks = [];
 
   constructor(public navCtrl: NavController, private http: HTTP, public filtersProvider: FiltersProvider) {
-    this.http.get('http://dcabb22e.ngrok.io/api/info', {}, {})
-    .then(data => {
-      this.rinks = JSON.parse(JSON.parse(data.data));
-    })
-    .catch(error => {
-      console.log(error);
-    });
+    this.http.get('http://00242053.ngrok.io/api/info', {}, {})
+      .then(data => {
+        this.rinks = JSON.parse(JSON.parse(data.data));
+      })
+      .catch(error => {
+        console.log(error);
+      });
   }
 
   openFilters() {
@@ -29,7 +29,7 @@ export class RinkListPage {
   }
 
   openRinkDetails(rink) {
-    this.navCtrl.push(RinkDetailsPage);
+    this.navCtrl.push(RinkDetailsPage, rink);
   }
 
   getRinks() {
