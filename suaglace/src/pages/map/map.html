@@ -6,8 +6,10 @@
 
 <ion-content>
   <div #map id="map"></div>
-  <div class="btn-group">
-      <button (click)="openReserve()" type="button" class="btn btn-outline-primary btn-lg reserveButton">Joindre</button>
-      <button (click)="openDetails()" type="button" class="btn btn-primary btn-lg detailButton">Détails</button>
+  <div *ngIf="selectedRink">
+    <div class="btn-group">
+      <button (click)="joinGame(selectedRink)" type="button" class="btn btn-outline-primary btn-lg reserveButton" [disabled]="rinkProvider.rink">Joindre</button>
+      <button (click)="openDetails(selectedRink)" type="button" class="btn btn-primary btn-lg detailButton">Détails</button>
+    </div>
   </div>
 </ion-content>
