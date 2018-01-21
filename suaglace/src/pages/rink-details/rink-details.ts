@@ -35,7 +35,7 @@ export class RinkDetailsPage {
 
   joinGame() {
     console.log(this.user);
-    this.http.post('http://00242053.ngrok.io/api/rinks' + this.rink.Id, this.user, {})
+    this.http.post('http://00242053.ngrok.io/api/rinks/' + this.rink.Id, this.user, {})
       .then(data => {
       })
       .catch(error => {
