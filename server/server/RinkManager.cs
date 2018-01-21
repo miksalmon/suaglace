@@ -8,10 +8,15 @@ namespace server
 {
     class RinkManager
     {
+        public List<Rink> Rinks { get; private set; }
+
+        public Dictionary<string, List<User>> CurrentPlayers { get; private set; }
 
         public RinkManager()
         {
-
+            Rinks = RinkCollection.GetCollection();
+            Rinks.ForEach(rink => CurrentPlayers.Add(rink.Id, new List<User>()));
+            CurrentPlayers = new Dictionary<string, List<User>>();
         }
     }
 }
