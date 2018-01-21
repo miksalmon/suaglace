@@ -6,11 +6,18 @@ foreach ($item in $data.patinoires) {
     if ($info[0]) {
         $nom = $info[0].Trim()
     }
+    else {
+        Write-Output "No name... Exiting"
+        break
+    }
     
-
     if ($info[1]) {
         $parc = $info[1].Trim()
     }
+    
+    Write-Output $parc.Replace(" ", "+")
+    $response = Invoke-WebRequest -Uri $("https://maps.googleapis.com/maps/api/geocode/json?address=" + $parc.Replace(" ", "+") + "&key=AIzaSyBbzVohjOAXGswSq58pZ5Bc4ivOOkNdqu0")
+    $location = (ConvertFrom-Json $response.Content).results[0].geometry.location
 
     $props = @{
         'Parc'           = $parc;
@@ -23,8 +30,9 @@ foreach ($item in $data.patinoires) {
         'Condition'      = $item.condition;
         'DateMaj'        = $item.arrondissement.date_maj;
         'Id'             = [Guid]::NewGuid();
+        'Lat'            = $location.lat;
+        'Lng'            = $location.lng;
     }
-
     
     if ($item.nom.Contains("PSE")) {
         $item = New-Object -TypeName PSObject -Property $props
