@@ -1,4 +1,5 @@
-﻿using System.Web.Http;
+﻿using System.Collections.Generic;
+using System.Web.Http;
 using Newtonsoft.Json;
 
 namespace server
@@ -16,9 +17,9 @@ namespace server
         // GET api/players/5 
         public string Get([FromUri] string id)
         {
-            var players = UserManager.CurrentUsers;
-            var player = players.Find(p => p.Id == int.Parse(id));
-            return JsonConvert.SerializeObject(player);
+            List<User> players;
+            RinkManager.CurrentPlayers.TryGetValue(id, out players);
+            return JsonConvert.SerializeObject(players);
         }
 
 
