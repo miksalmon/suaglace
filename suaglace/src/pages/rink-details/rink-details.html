@@ -27,8 +27,10 @@
     </ion-item>
 
     <ion-item>
-      <ion-label>Participants</ion-label>
-      <ion-label>{{participants.length}}</ion-label>
+      <ion-buttons (click)="openPlayers()">
+          <ion-label>Participants</ion-label>
+          <ion-label>{{participants.length}}</ion-label>
+      </ion-buttons>      
     </ion-item>
 
     <ion-item>

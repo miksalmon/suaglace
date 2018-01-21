@@ -15,6 +15,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { FiltersPage } from '../pages/filters/filters';
 import { FiltersProvider } from '../provider/filters-provider';
+import { PlayerListModal } from '../pages/playerList/player-list';
 import { RinkProvider } from '../provider/rink-provider';
 
 @NgModule({
@@ -25,7 +26,8 @@ import { RinkProvider } from '../provider/rink-provider';
     MapPage,
     TabsPage,
     RinkDetailsPage,
-    FiltersPage
+    FiltersPage,
+    PlayerListModal
   ],
   imports: [
     BrowserModule,
@@ -39,7 +41,8 @@ import { RinkProvider } from '../provider/rink-provider';
     MapPage,
     TabsPage,
     RinkDetailsPage,
-    FiltersPage
+    FiltersPage,
+    PlayerListModal
   ],
   providers: [
     StatusBar,
