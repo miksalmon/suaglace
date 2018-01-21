@@ -1,5 +1,20 @@
-<ion-list inset>
-    <button ion-item  *ngFor="let player of playerList">
-        <p>{{player}}</p> 
-    </button>
-</ion-list>
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            List des joueurs
+        </ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="closePage()">
+                <ion-icon item-right name="ios-close-outline"></ion-icon>
+            </button>
+        </ion-buttons>
+
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-list inset>
+        <button ion-item *ngFor="let player of playerList">
+            <p>{{player.Name}}</p>
+        </button>
+    </ion-list>
+</ion-content>
