@@ -19,7 +19,7 @@ export class RinkDetailsPage {
 
   constructor(public viewCtrl: ViewController, public http: HTTP, public navCtrl: NavController, public navParams: NavParams) {
     this.rink = this.navParams.data;
-    this.participants = this.http.get('http://00242053.ngrok.io/api/players', {}, {})
+    this.participants = this.http.get('http://00242053.ngrok.io/api/players/' + this.rink.Id, {}, {})
       .then(data => {
         this.participants = JSON.parse(JSON.parse(data.data));
       })
@@ -34,8 +34,7 @@ export class RinkDetailsPage {
   }
 
   joinGame() {
-    console.log(this.user);
-    this.http.post('http://00242053.ngrok.io/api/rinks' + this.rink.Id, this.user, {})
+    this.http.post('http://00242053.ngrok.io/api/rinks/' + this.rink.Id, this.user, {})
       .then(data => {
       })
       .catch(error => {

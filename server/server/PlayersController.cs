@@ -19,6 +19,10 @@ namespace server
         {
             List<User> players;
             RinkManager.CurrentPlayers.TryGetValue(id, out players);
+            if(players == null)
+            {
+                players = new List<User>();
+            }
             return JsonConvert.SerializeObject(players);
         }
 

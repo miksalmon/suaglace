@@ -9,7 +9,16 @@ namespace server
         // POST api/rinks/5 
         public void Post([FromUri] string id, [FromBody] string userData)
         {
-            User user = JsonConvert.DeserializeObject<User>(userData);
+            User user;
+            if (userData != null)
+            {
+                user = JsonConvert.DeserializeObject<User>(userData);
+
+            }
+            else
+            {
+                user = new User("Samuel Chapleau", "Gardien", "Parc Beaubien");
+            }
             Console.WriteLine("AddUser: " + userData);
             UserManager.AddUser(user);
             Console.WriteLine("JoinRink: " + id);
