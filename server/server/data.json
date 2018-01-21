@@ -1,7 +1,7 @@
 ﻿[
     {
         "Ouvert": true,
-        "Id": "id",
+        "Id": "6a3677ec-0117-4c4f-a067-9dc941f999ab",
         "Nom": "Aire de patinage libre, De la Savane",
         "Resurface": false,
         "Type": "PPL",
@@ -13,7 +13,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "713c8389-2555-4097-a7e7-2dc5bff9e9a7",
         "Nom": "Aire de patinage libre, Georges-Saint-Pierre",
         "Resurface": false,
         "Type": "PPL",
@@ -25,7 +25,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "40aa5623-7f91-4f77-b30c-d7ef71f34d58",
         "Nom": "Aire de patinage libre, Gilbert-Layton",
         "Resurface": false,
         "Type": "PPL",
@@ -37,7 +37,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "8b2fb6a1-83d9-4409-bfa5-d0f3aa02be27",
         "Nom": "Aire de patinage libre, Jean-Brillant",
         "Resurface": false,
         "Type": "PPL",
@@ -49,7 +49,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "eb237373-c278-4fc0-b925-6209e3d1871f",
         "Nom": "Aire de patinage libre, Kent",
         "Resurface": false,
         "Type": "PPL",
@@ -61,7 +61,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "b8c3e9d5-b12d-449e-8024-68890a246255",
         "Nom": "Aire de patinage libre, Loyola",
         "Resurface": false,
         "Type": "PPL",
@@ -73,7 +73,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "4cae79b9-67ec-4170-80f5-11914683c394",
         "Nom": "Aire de patinage libre, MacDonald",
         "Resurface": false,
         "Type": "PPL",
@@ -85,7 +85,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "16c1ab15-53ff-4a7d-a309-df46e311ba5c",
         "Nom": "Aire de patinage libre, Mackenzie-King",
         "Resurface": false,
         "Type": "PPL",
@@ -97,7 +97,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "135c39a5-7bbb-4c1d-a6ac-780e9e86de50",
         "Nom": "Aire de patinage libre, Maurice-Cullen",
         "Resurface": false,
         "Type": "PPL",
@@ -109,7 +109,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "3bba7de7-014f-4ba3-b6b3-e0734a7b1296",
         "Nom": "Aire de patinage libre, Notre-Dame-de-Grâce",
         "Resurface": false,
         "Type": "PPL",
@@ -121,7 +121,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "4432fbad-189b-4103-98f0-cfeb59f0e00e",
         "Nom": "Aire de patinage libre, Van Horne",
         "Resurface": false,
         "Type": "PP",
@@ -133,7 +133,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "4cba2e07-9255-4a1c-96ba-b3fd6a4e402a",
         "Nom": "Aire de patinage libre, William-Hurst",
         "Resurface": false,
         "Type": "PP",
@@ -145,7 +145,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "2eed65a1-08c6-46b7-9cbd-fd06bd1cb119",
         "Nom": "Anneau à patiner du parc Hayward",
         "Resurface": true,
         "Type": "PPL",
@@ -157,7 +157,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "8e4fa2e3-cea4-480e-81cd-856f447caa02",
         "Nom": "Anneau à patiner du parc Riverside",
         "Resurface": true,
         "Type": "PPL",
@@ -169,7 +169,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "23e6d7ae-7239-46fa-8717-7d024993f420",
         "Nom": "Anneau de glace, Parc Eugène-Dostie",
         "Resurface": true,
         "Type": "PPL",
@@ -181,7 +181,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "5f4e735f-5e9f-48eb-9b5d-b332ff7f33d2",
         "Nom": "Anneau de glace, Parc Lucie-Bruneau",
         "Resurface": false,
         "Type": "PPL",
@@ -193,7 +193,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "1ee75ca9-937d-44cd-a549-a6d760f7bfd0",
         "Nom": "Anneau de glace, Parc Talcy",
         "Resurface": false,
         "Type": "PPL",
@@ -205,7 +205,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "d8700726-db57-4432-a679-4d7ebea4851b",
         "Nom": "Grande patinoire avec bandes, La Fontaine",
         "Resurface": true,
         "Type": "PSE",
@@ -217,7 +217,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "6a220484-69ce-497f-a100-d56d92f578f7",
         "Nom": "Grande patinoire de hockey, Parc Beaubien",
         "Resurface": true,
         "Type": "PSE",
@@ -229,7 +229,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "7831e23c-478b-4f22-9267-0ee82d2c2917",
         "Nom": "Pat. avec bandes - près chalet, parc LaSalle",
         "Resurface": false,
         "Type": "PSE",
@@ -241,7 +241,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "513adf8f-50a1-4992-b5bf-3ded6aa2bdae",
         "Nom": "Pat. avec bandes - près 10e Avenue, Parc LaSalle",
         "Resurface": false,
         "Type": "PSE",
@@ -253,7 +253,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "e75ad6c5-6a00-4c8f-b5f7-dbcd3c51ff9f",
         "Nom": "Patinoire # 1 , Parc Eugène-Dostie",
         "Resurface": true,
         "Type": "PSE",
@@ -265,7 +265,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "db8dcbeb-1c5f-4deb-b84d-6f24d7a2c9c7",
         "Nom": "Patinoire # 1, Parc Jonathan-Wilson",
         "Resurface": true,
         "Type": "PSE",
@@ -277,7 +277,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "745cfeb8-fe84-4b19-b687-6a1e7a6e6a65",
         "Nom": "Patinoire # 1, Parc Joseph-Avila-Proulx",
         "Resurface": true,
         "Type": "PSE",
@@ -289,7 +289,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "bb2702fd-1f77-4d7e-9f6a-5382de3f149c",
         "Nom": "Patinoire # 1, Parc Robert-Sauvé",
         "Resurface": true,
         "Type": "PSE",
@@ -301,7 +301,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "86f884a4-5657-47f0-ae26-f399d725009f",
         "Nom": "Patinoire # 2 , Parc Eugène-Dostie",
         "Resurface": true,
         "Type": "PSE",
@@ -313,7 +313,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "5fcbdf4d-d1bb-4eb2-a621-6b085043973c",
         "Nom": "Patinoire à bandes, Liébert",
         "Resurface": true,
         "Type": "PSE",
@@ -325,7 +325,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "bb5a80f4-0d9e-4d40-9dfb-98f9ae8c625e",
         "Nom": "Patinoire à bandes, Parc Beurling",
         "Resurface": false,
         "Type": "PSE",
@@ -337,7 +337,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "7743dc3f-1a9a-4d4c-8104-c96a55fadc71",
         "Nom": "Patinoire à bandes, Parc de la Fontaine",
         "Resurface": false,
         "Type": "PSE",
@@ -349,7 +349,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "2d7a320a-272e-4768-882e-7734a03ac7db",
         "Nom": "Patinoire à bandes, Parc Duquette",
         "Resurface": false,
         "Type": "PSE",
@@ -361,7 +361,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "b2b49b2c-3e7f-458b-b418-ceace5e75cbf",
         "Nom": "Patinoire à bandes, Parc Elgar",
         "Resurface": false,
         "Type": "PSE",
@@ -373,7 +373,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "dc869406-9f3e-4131-a978-bb7e2f3c40fc",
         "Nom": "Patinoire à bandes, Reine-Elisabeth",
         "Resurface": false,
         "Type": "PSE",
@@ -385,7 +385,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "64400f20-39de-4b0c-b2ea-40407a2a05d3",
         "Nom": "Patinoire avec bande, Parc Grier",
         "Resurface": false,
         "Type": "PSE",
@@ -397,7 +397,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "cac1da61-a109-4a74-8900-41e66b2cee5c",
         "Nom": "Patinoire avec bandes , Mackenzie-King",
         "Resurface": false,
         "Type": "PSE",
@@ -409,7 +409,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "d0af1f26-bd45-4570-9134-debbb52e7d6d",
         "Nom": "Patinoire avec bandes , Trenholme",
         "Resurface": false,
         "Type": "PSE",
@@ -421,7 +421,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "96a8489b-6d14-4c2a-90dc-3b645b33242a",
         "Nom": "Patinoire avec bandes, Alexis-Carrel",
         "Resurface": false,
         "Type": "PSE",
@@ -433,7 +433,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "69744eaf-df92-4101-83c2-0ce7d842eebc",
         "Nom": "Patinoire avec bandes, Baldwin",
         "Resurface": true,
         "Type": "PSE",
@@ -445,7 +445,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "6796c261-73bf-421f-97fd-f96fefb1537d",
         "Nom": "Patinoire avec bandes, Berthe-Louard",
         "Resurface": true,
         "Type": "PSE",
@@ -457,7 +457,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "403f8d8c-045b-42a9-ae58-cf1d1b9e3437",
         "Nom": "Patinoire avec bandes, Camille",
         "Resurface": true,
         "Type": "PSE",
@@ -469,7 +469,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "88776470-8683-4e8d-b7f5-91fda41b024d",
         "Nom": "Patinoire avec bandes, Campbell-Ouest",
         "Resurface": false,
         "Type": "PSE",
@@ -481,7 +481,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "c028b414-50cb-47ea-80f4-8e9ce845459d",
         "Nom": "Patinoire avec bandes, Carré Hibernia",
         "Resurface": false,
         "Type": "PSE",
@@ -493,7 +493,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "880fa4a8-7651-4ff1-a86f-f6c7f5014b4e",
         "Nom": "Patinoire avec bandes, C-de-la-Rousselière",
         "Resurface": false,
         "Type": "PSE",
@@ -505,7 +505,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "036a974a-f57b-4789-b1cd-953bcca7e9da",
         "Nom": "Patinoire avec bandes, Champdoré",
         "Resurface": true,
         "Type": "PSE",
@@ -517,7 +517,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "6af11f03-147a-477e-a0f5-4ef66c61a3f7",
         "Nom": "Patinoire avec bandes, Daniel-Johnson",
         "Resurface": false,
         "Type": "PSE",
@@ -529,7 +529,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "6268d48e-fe49-465e-8df6-6130899ade09",
         "Nom": "Patinoire avec bandes, De Gaspé",
         "Resurface": false,
         "Type": "PSE",
@@ -541,7 +541,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "032c16d7-c334-4c91-a92a-8d29e9d3bd3f",
         "Nom": "Patinoire avec bandes, De La Bruère",
         "Resurface": true,
         "Type": "PSE",
@@ -553,7 +553,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "381e3faa-f851-4582-9740-bca5d8645a37",
         "Nom": "Patinoire avec bandes, De la Louisiane",
         "Resurface": false,
         "Type": "PSE",
@@ -565,7 +565,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "8d24c94e-6b62-48d8-94c5-da1e82b9bca2",
         "Nom": "Patinoire avec bandes, De la Vérendrye",
         "Resurface": false,
         "Type": "PSE",
@@ -577,7 +577,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "643a32e3-0828-4a7d-b696-c9254cc02c42",
         "Nom": "Patinoire avec bandes, De Louisbourg",
         "Resurface": true,
         "Type": "PSE",
@@ -589,7 +589,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "31f20642-7eea-443b-ac47-a5efb0c9bb1b",
         "Nom": "Patinoire avec bandes, de Mésy",
         "Resurface": true,
         "Type": "PSE",
@@ -601,7 +601,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "88db2631-07d3-433b-ad15-8e6cab03558c",
         "Nom": "Patinoire avec bandes, de Mésy",
         "Resurface": true,
         "Type": "PSE",
@@ -613,7 +613,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "36a60c74-d11f-45ef-aa09-3bdd5f9dba66",
         "Nom": "Patinoire avec bandes, Des Vétérans",
         "Resurface": true,
         "Type": "PSE",
@@ -625,7 +625,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "22edaab3-eba7-4d22-a5a2-ab0bc7881063",
         "Nom": "Patinoire avec bandes du parc Oscar",
         "Resurface": true,
         "Type": "PSE",
@@ -637,7 +637,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "68a785d2-39ca-411c-975b-eb475b30d2e5",
         "Nom": "Patinoire avec bandes du parc Sauvé",
         "Resurface": true,
         "Type": "PSE",
@@ -649,7 +649,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "a7feebbc-d9ed-4f76-92bb-99d75dc0d493",
         "Nom": "Patinoire avec bandes, Du Pélican",
         "Resurface": false,
         "Type": "PSE",
@@ -661,7 +661,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "c2066e93-f6d6-4e81-87e4-20155d724f4c",
         "Nom": "Patinoire avec bandes, François-Perrault",
         "Resurface": true,
         "Type": "PSE",
@@ -673,7 +673,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "dcbb39eb-08b3-4099-bf84-efeb50efa0dd",
         "Nom": "Patinoire avec bandes, Georges-Saint-Pierre",
         "Resurface": false,
         "Type": "PSE",
@@ -685,7 +685,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "5b72ff31-d120-4500-acce-02fa9b69ef97",
         "Nom": "Patinoire avec bandes, George-Vernot",
         "Resurface": true,
         "Type": "PSE",
@@ -697,7 +697,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "7d5adc77-bad4-4d5a-a46b-5be0dd5d997e",
         "Nom": "Patinoire avec bandes, Henri-Julien",
         "Resurface": true,
         "Type": "PSE",
@@ -709,7 +709,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "22dc54ed-3248-4d7b-a453-9a8c885ab595",
         "Nom": "Patinoire avec bandes, Howard",
         "Resurface": true,
         "Type": "PSE",
@@ -721,7 +721,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "7182a967-222d-4b88-a5b3-6ce4cf2136e0",
         "Nom": "Patinoire avec bandes, Ignace-Bourget",
         "Resurface": false,
         "Type": "PSE",
@@ -733,7 +733,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "cd61f5b8-f31e-44d4-b9a5-e260dffeebc0",
         "Nom": "Patinoire avec bandes, Jean-Amyot",
         "Resurface": true,
         "Type": "PSE",
@@ -745,7 +745,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "4dd827ef-27ba-4d13-9766-8f068449ccc1",
         "Nom": "Patinoire avec bandes, Jean-Brillant",
         "Resurface": false,
         "Type": "PSE",
@@ -757,7 +757,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "d6d8f9cf-66d1-438b-a731-8a9031b94ae0",
         "Nom": "Patinoire avec bandes, Jeanne-Mance",
         "Resurface": true,
         "Type": "PSE",
@@ -769,7 +769,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "5c94e646-cf20-4c98-8357-10dfc86ab8c7",
         "Nom": "Patinoire avec bandes, Kent (sud)",
         "Resurface": false,
         "Type": "PSE",
@@ -781,7 +781,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "df5b66b3-86f4-434f-bd0b-b2bbf27bcd1c",
         "Nom": "Patinoire avec bandes, Lafond",
         "Resurface": false,
         "Type": "PSE",
@@ -793,7 +793,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "27fdbd66-64eb-4117-88ad-0d114e83509f",
         "Nom": "Patinoire avec bandes, Lalancette",
         "Resurface": false,
         "Type": "PSE",
@@ -805,7 +805,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "d8de5379-1212-45ec-bf20-81e1eea7f72a",
         "Nom": "Patinoire avec bandes, Le Ber",
         "Resurface": false,
         "Type": "PSE",
@@ -817,7 +817,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "83b7d15d-9692-4006-bd65-2a5205683f32",
         "Nom": "Patinoire avec bandes, Le Prévost",
         "Resurface": true,
         "Type": "PSE",
@@ -829,7 +829,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "08631006-cdfb-494a-a68d-c307fdf84886",
         "Nom": "Patinoire avec bandes, MacDonald",
         "Resurface": false,
         "Type": "PSE",
@@ -841,7 +841,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "a73f7ad9-36df-41f3-95b4-d130a3768ee9",
         "Nom": "Patinoire avec bandes, Nicolas-Tillemont",
         "Resurface": true,
         "Type": "PSE",
@@ -853,7 +853,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "01e8a806-34b6-4b5b-8299-af2455a99aad",
         "Nom": "Patinoire avec bandes Nord, Beaubien",
         "Resurface": false,
         "Type": "PSE",
@@ -865,7 +865,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "d18cc5e6-e519-4131-868d-4aa44e4ea7de",
         "Nom": "Patinoire avec bandes nord, Jarry",
         "Resurface": true,
         "Type": "PSE",
@@ -877,7 +877,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "ab055ca7-0ead-4c72-a21d-1ea5d3f1ac4a",
         "Nom": "Patinoire avec bandes Nord, Parc de Roxboro",
         "Resurface": false,
         "Type": "PSE",
@@ -889,7 +889,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "dc9a80a4-3a7b-4da8-89e3-4c8df677ce5d",
         "Nom": "Patinoire avec bandes, Notre-Dame-de-Grâce",
         "Resurface": false,
         "Type": "PSE",
@@ -901,7 +901,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "8b60be4f-2ddc-447c-aae5-e2136d0c2185",
         "Nom": "Patinoire avec bandes, Parc Alexander",
         "Resurface": false,
         "Type": "PSE",
@@ -913,7 +913,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "ab4c1256-6720-4d59-a2c4-0f1c0ceca4ff",
         "Nom": "Patinoire avec bandes, Parc Brook",
         "Resurface": false,
         "Type": "PSE",
@@ -925,7 +925,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "5bd5945c-0fb2-46f6-ae61-6c8465e81d42",
         "Nom": "Patinoire avec bandes, parc Carignan",
         "Resurface": false,
         "Type": "PSE",
@@ -937,7 +937,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "9c25c254-dd96-4e98-b386-f5576eb306c1",
         "Nom": "Patinoire avec bandes, Parc d\u0027À-Ma-Baie",
         "Resurface": false,
         "Type": "PSE",
@@ -949,7 +949,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "efaa319b-250a-4189-bdce-7582f4c8c5ff",
         "Nom": "Patinoire avec bandes, Parc de la Rive-Boisée",
         "Resurface": false,
         "Type": "PSE",
@@ -961,7 +961,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "f7762be2-b231-4b9d-b1c3-4b7e50aae316",
         "Nom": "Patinoire avec bandes, Parc Des Roseraies",
         "Resurface": true,
         "Type": "PSE",
@@ -973,7 +973,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "aa914a11-a81f-4075-8086-ff15af86f4a5",
         "Nom": "Patinoire avec bandes, parc Dixie",
         "Resurface": false,
         "Type": "PSE",
@@ -985,7 +985,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "5370d531-5308-4bc2-9828-4ad065a1e4d8",
         "Nom": "Patinoire avec bandes, parc Duff court",
         "Resurface": false,
         "Type": "PSE",
@@ -997,7 +997,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "7eacae89-b8e3-490b-a81c-759ded11d3ad",
         "Nom": "Patinoire avec bandes, Parc Gérard-Vaillancourt",
         "Resurface": false,
         "Type": "PSE",
@@ -1009,7 +1009,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "13820523-8b7a-46cc-a4ea-fe7190bb497c",
         "Nom": "Patinoire avec bandes, Parc Hans-Selye",
         "Resurface": false,
         "Type": "PSE",
@@ -1021,7 +1021,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "470530ef-e1ec-4016-967d-a547b681f71d",
         "Nom": "Patinoire avec bandes, Parc Jean-Lapierre",
         "Resurface": false,
         "Type": "PSE",
@@ -1033,7 +1033,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "d261e8b4-7e5e-4e1f-b001-d7e47976555b",
         "Nom": "Patinoire avec bandes, parc Kirkland",
         "Resurface": false,
         "Type": "PSE",
@@ -1045,7 +1045,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "8f08a57c-4853-49a3-b15d-84f7c6bd5472",
         "Nom": "Patinoire avec bandes, Parc Lucie-Bruneau",
         "Resurface": true,
         "Type": "PSE",
@@ -1057,7 +1057,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "908f423b-d2af-4746-9101-fb6b3ab2d60b",
         "Nom": "Patinoire avec bandes, Parc Roger Rousseau",
         "Resurface": true,
         "Type": "PSE",
@@ -1069,7 +1069,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "2f36d876-cdd8-466c-b0d8-db29ab8d9418",
         "Nom": "Patinoire avec bandes, Parc Spalding",
         "Resurface": true,
         "Type": "PSE",
@@ -1081,7 +1081,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "7f1c62f0-c748-4b07-a89a-53b456c68021",
         "Nom": "Patinoire avec bandes, Parc Talcy",
         "Resurface": true,
         "Type": "PSE",
@@ -1093,7 +1093,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "120c10b6-f19a-4876-aa97-9015204d4ebf",
         "Nom": "Patinoire avec bandes, parc Villeray",
         "Resurface": true,
         "Type": "PSE",
@@ -1105,7 +1105,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "b1f9b920-d3c8-455a-8154-ada96bc9af92",
         "Nom": "Patinoire avec bandes, Pehr-Kalm",
         "Resurface": false,
         "Type": "PSE",
@@ -1117,7 +1117,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "8768a0a4-df29-4a6d-ae81-2431b74f9bd4",
         "Nom": "Patinoire avec bandes, Père-Marquette",
         "Resurface": false,
         "Type": "PSE",
@@ -1129,7 +1129,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "ab08355e-9eed-4309-b3df-7ee6620980f5",
         "Nom": "Patinoire avec bandes, Pierre-Bédard",
         "Resurface": true,
         "Type": "PSE",
@@ -1141,7 +1141,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "557736c9-7e49-4c73-b5da-6eac3ba8e35c",
         "Nom": "Patinoire avec bandes, Polyvalente Saint-Henri",
         "Resurface": false,
         "Type": "PSE",
@@ -1153,7 +1153,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "43414fc9-9719-41a0-8821-67e57344c058",
         "Nom": "Patinoire avec bandes, Saint-Aloysius",
         "Resurface": false,
         "Type": "PSE",
@@ -1165,7 +1165,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "3bb4d740-5429-4404-b860-5b79011948d1",
         "Nom": "Patinoire avec bandes, Saint-Alphonse",
         "Resurface": true,
         "Type": "PSE",
@@ -1177,7 +1177,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "325887eb-d729-4160-b052-7ad554e96543",
         "Nom": "Patinoire avec bandes, Saint-André-Apôtre",
         "Resurface": true,
         "Type": "PSE",
@@ -1189,7 +1189,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "50fe325d-1722-4b6e-a4ad-c73b35e84f53",
         "Nom": "Patinoire avec bandes, Sainte-Bernadette",
         "Resurface": false,
         "Type": "PSE",
@@ -1201,7 +1201,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "6b69e91c-4f3f-4127-ad5d-a89a1f1ee6a2",
         "Nom": "Patinoire avec bandes, Sainte-Lucie",
         "Resurface": true,
         "Type": "PSE",
@@ -1213,7 +1213,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "2ac246b5-81b2-44d6-8971-25a344c2d075",
         "Nom": "Patinoire avec bandes, Sainte-Maria-Goretti",
         "Resurface": false,
         "Type": "PSE",
@@ -1225,7 +1225,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "618b3f80-04dd-4d16-80a9-52d2676cebca",
         "Nom": "Patinoire avec bandes, Saint-Jean-Baptiste",
         "Resurface": false,
         "Type": "PSE",
@@ -1237,7 +1237,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "2738a075-9edf-4793-a1b9-71b89865fd35",
         "Nom": "Patinoire avec bandes, Saint-Paul-de-la-Croix",
         "Resurface": true,
         "Type": "PSE",
@@ -1249,7 +1249,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "cf8ae62c-ea3c-4b4e-b353-d33551e2ee02",
         "Nom": "Patinoire avec bandes, Saint-Victor",
         "Resurface": true,
         "Type": "PSE",
@@ -1261,7 +1261,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "c7aed3d6-c1f4-4ff5-919a-5b63380cb465",
         "Nom": "Patinoire avec bandes, Sault-au-Récollet",
         "Resurface": true,
         "Type": "PSE",
@@ -1273,7 +1273,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "cebd4853-55f5-439d-961d-2aa8fb6cfbc0",
         "Nom": "Patinoire avec bandes, Sir-Wilfrid-Laurier no1",
         "Resurface": true,
         "Type": "PSE",
@@ -1285,7 +1285,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "7425e713-af3d-483d-8db6-2ee5f45ec04b",
         "Nom": "Patinoire avec bandes, Sir-Wilfrid-Laurier no2",
         "Resurface": true,
         "Type": "PSE",
@@ -1297,7 +1297,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "e63f25b6-5200-4b4a-ab95-af7946151afe",
         "Nom": "Patinoire avec bandes, Sir-Wilfrid-Laurier no3",
         "Resurface": true,
         "Type": "PSE",
@@ -1309,7 +1309,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "6599599f-484e-43af-995b-4d15243c31fc",
         "Nom": "Patinoire avec bandes, St-Valérien",
         "Resurface": false,
         "Type": "PSE",
@@ -1321,7 +1321,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "f422e76e-5dee-4e4b-8f6d-67b69942e75f",
         "Nom": "Patinoire avec bandes Sud, Beaubien",
         "Resurface": false,
         "Type": "PSE",
@@ -1333,7 +1333,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "263e9937-a97d-4264-a36d-68c4a7892e39",
         "Nom": "Patinoire avec bandes sud, Jarry",
         "Resurface": true,
         "Type": "PSE",
@@ -1345,7 +1345,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "bbebc996-20f6-471d-a5b2-e0f5069a8453",
         "Nom": "Patinoire avec bandes Sud, Parc de Roxboro",
         "Resurface": false,
         "Type": "PSE",
@@ -1357,7 +1357,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "c1d29973-5eef-4f04-809b-6b6c705cd395",
         "Nom": "Patinoire avec bandes, Thomas-Chapais",
         "Resurface": false,
         "Type": "PSE",
@@ -1369,7 +1369,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "77507bf9-4319-422e-90a3-2bbba3e2c1fe",
         "Nom": "Patinoire avec bandes, Toussaint-Louverture",
         "Resurface": true,
         "Type": "PSE",
@@ -1381,7 +1381,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "fff34c76-1617-40db-b44d-1048779cb13b",
         "Nom": "Patinoire avec bandes, Vinet",
         "Resurface": false,
         "Type": "PSE",
@@ -1393,7 +1393,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "3f69bd52-992d-4a6d-b800-68a5d275078a",
         "Nom": "Patinoire avec bandes, Walter-Stewart",
         "Resurface": true,
         "Type": "PSE",
@@ -1405,7 +1405,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "a9b0bd64-fa7a-4b8c-9c65-94540c69165e",
         "Nom": "Patinoire avec bandes, William-Bowie",
         "Resurface": false,
         "Type": "PSE",
@@ -1417,7 +1417,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "d557f3e9-5fdd-4b3f-a8d4-6043178ceb65",
         "Nom": "Patinoire avec bandes, William-Hurst",
         "Resurface": false,
         "Type": "PSE",
@@ -1429,7 +1429,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "eb90f07c-1e88-400f-9fb7-7556bb1eac57",
         "Nom": "Patinoire Bleu Blanc Bouge du parc Hayward",
         "Resurface": true,
         "Type": "PSE",
@@ -1441,7 +1441,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "fd52400e-38cb-4130-bc6e-30793ebe6314",
         "Nom": "Patinoire Bleu, Blanc, Bouge du parc Le Carignan",
         "Resurface": true,
         "Type": "PSE",
@@ -1453,7 +1453,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "4760d3dd-4d6c-4f38-b17e-8ef3bb2b9e62",
         "Nom": "Patinoire Bleu Blanc Bouge, Parc Willibrord",
         "Resurface": false,
         "Type": "PSE",
@@ -1465,7 +1465,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "7cb621af-d628-4009-ab17-0feea57a95f5",
         "Nom": "Patinoire Bleu-Blanc-Bouge, Parc Confédération",
         "Resurface": true,
         "Type": "PSE",
@@ -1477,7 +1477,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "95a88de7-bd2c-4996-90db-3cc68ad1d5fe",
         "Nom": "Patinoire De Gaspé/Bernard",
         "Resurface": true,
         "Type": "PSE",
@@ -1489,7 +1489,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "88d770d4-bbaf-4691-aa5e-83e6ae579037",
         "Nom": "Patinoire de hockey et patin libre, Parc Pratt",
         "Resurface": true,
         "Type": "PPL",
@@ -1501,7 +1501,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "d918524e-1082-498c-ac00-c21a8340b0c4",
         "Nom": "Patinoire de hockey, Parc Oakwood",
         "Resurface": true,
         "Type": "PPL",
@@ -1513,7 +1513,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "3259ede1-1d95-4c92-9791-d55054947637",
         "Nom": "Patinoire de patin libre, Alexis-Carrel",
         "Resurface": false,
         "Type": "PPL",
@@ -1525,7 +1525,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "36b80331-5bea-4242-aa48-d72f2179331b",
         "Nom": "Patinoire de patin libre, Armand-Bombardier",
         "Resurface": false,
         "Type": "PPL",
@@ -1537,7 +1537,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "22035331-76c8-462f-aec6-c2d6fd6ac291",
         "Nom": "Patinoire de patin libre, Baldwin",
         "Resurface": true,
         "Type": "PPL",
@@ -1549,7 +1549,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "96c56d23-4e6d-4859-a22e-c2b12bf69d68",
         "Nom": "Patinoire de patin libre, Beaubien",
         "Resurface": false,
         "Type": "PPL",
@@ -1561,7 +1561,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "5238e093-2d0a-4ca4-a665-af55816bf4e1",
         "Nom": "Patinoire de patin libre, Beauclerk",
         "Resurface": false,
         "Type": "PPL",
@@ -1573,7 +1573,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "72a75f5a-e031-4e60-a107-81a1b0c60244",
         "Nom": "Patinoire de patin libre, Berthe-Louard",
         "Resurface": true,
         "Type": "PPL",
@@ -1585,7 +1585,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "7dde435a-7f4a-41b3-95d3-742e5749c7f6",
         "Nom": "Patinoire de patin libre, C-de-la-Rousselière",
         "Resurface": false,
         "Type": "PPL",
@@ -1597,7 +1597,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "ad9de148-19ed-4629-afed-5968d7bdb223",
         "Nom": "Patinoire de patin libre, Cité-Jardin",
         "Resurface": false,
         "Type": "PPL",
@@ -1609,7 +1609,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "6feb9e84-af8e-40d4-b53a-f69efae033cd",
         "Nom": "Patinoire de patin libre, club pêcheurs/chasseurs",
         "Resurface": false,
         "Type": "PPL",
@@ -1621,7 +1621,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "57559802-6ba4-44fd-88ca-dea44108ff8f",
         "Nom": "Patinoire de patin libre, De Bordeaux",
         "Resurface": true,
         "Type": "PPL",
@@ -1633,7 +1633,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "6295ac81-1e4a-4998-9d7a-925873afc4a7",
         "Nom": "Patinoire de patin libre, De la Louisiane",
         "Resurface": false,
         "Type": "PPL",
@@ -1645,7 +1645,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "ace35e98-76a9-461a-b8b7-e2c998d771ca",
         "Nom": "Patinoire de patin libre, De Louisbourg",
         "Resurface": true,
         "Type": "PPL",
@@ -1657,7 +1657,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "7b7ce59c-ff32-4bd6-ab51-13f5be62f906",
         "Nom": "Patinoire de patin libre, Des Hirondelles",
         "Resurface": true,
         "Type": "PPL",
@@ -1669,7 +1669,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "83520f23-3ebd-4ba1-a6e1-722c9b56a037",
         "Nom": "Patinoire de patin libre du parc Le Carignan",
         "Resurface": true,
         "Type": "PPL",
@@ -1681,7 +1681,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "13d6010c-a885-4221-8769-982ffeec76d8",
         "Nom": "Patinoire de patin libre du parc Sauvé",
         "Resurface": true,
         "Type": "PPL",
@@ -1693,7 +1693,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "60b27b53-fa63-46aa-b0e3-0fdaede95d8b",
         "Nom": "Patinoire de patin libre, Du Pélican",
         "Resurface": false,
         "Type": "PPL",
@@ -1705,7 +1705,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "274fd165-277a-40da-bd30-3fce92dfa3f7",
         "Nom": "Patinoire de patin libre Est, Parc Brook",
         "Resurface": false,
         "Type": "PPL",
@@ -1717,7 +1717,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "9e358cca-0f8c-4e53-bcc6-f83f4d95f431",
         "Nom": "Patinoire de patin libre, George-Vernot",
         "Resurface": true,
         "Type": "PPL",
@@ -1729,7 +1729,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "a8dc48dd-1577-4241-940d-ea7da5409091",
         "Nom": "Patinoire de patin libre, Gérard-Vaillancourt",
         "Resurface": false,
         "Type": "PPL",
@@ -1741,7 +1741,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "a51c1751-e93e-4499-95be-a2865d2f7bb6",
         "Nom": "Patinoire de patin libre, Jean-Amyot",
         "Resurface": true,
         "Type": "PPL",
@@ -1753,7 +1753,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "54e5c8f2-4770-47da-b06e-d11cd0b116f6",
         "Nom": "Patinoire de patin libre, Jeanne-Mance",
         "Resurface": true,
         "Type": "PPL",
@@ -1765,7 +1765,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "156cad3b-a676-40ba-abc9-634feb87bfb3",
         "Nom": "Patinoire de patin libre, Lafond",
         "Resurface": false,
         "Type": "PPL",
@@ -1777,7 +1777,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "21e6d798-816a-4be6-83b4-9918ce008a70",
         "Nom": "Patinoire de patin libre, Lalancette",
         "Resurface": false,
         "Type": "PPL",
@@ -1789,7 +1789,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "e2bdc1ac-1544-42f7-a3c1-45602f7f74e6",
         "Nom": "Patinoire de patin libre, Marie-Claire-Daveluy",
         "Resurface": false,
         "Type": "PPL",
@@ -1801,7 +1801,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "362691a6-9ec1-436f-9a31-7e3c606860e3",
         "Nom": "Patinoire de patin libre, Nicolas-Tillemont",
         "Resurface": true,
         "Type": "PPL",
@@ -1813,7 +1813,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "ed12a735-8b55-4ef2-be15-11899deee306",
         "Nom": "Patinoire de patin libre, Nicolas-Viel",
         "Resurface": true,
         "Type": "PPL",
@@ -1825,7 +1825,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "55115c4b-7814-49c0-afc0-f42f1602c5a8",
         "Nom": "Patinoire de patin libre Nord, Parc Alexander",
         "Resurface": false,
         "Type": "PPL",
@@ -1837,7 +1837,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "2131e8bc-cc8a-4974-be88-bfbb4cb929a1",
         "Nom": "Patinoire de patin libre Nord, Parc d\u0027À-Ma-Baie",
         "Resurface": false,
         "Type": "PPL",
@@ -1849,7 +1849,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "e454b709-32bf-4300-93e4-5741393e54ba",
         "Nom": "Patinoire de patin libre Ouest, Parc Brook",
         "Resurface": false,
         "Type": "PPL",
@@ -1861,7 +1861,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "3df3f106-a32d-483f-9646-a10ed9ea32c6",
         "Nom": "Patinoire de patin libre, parc Carignan",
         "Resurface": false,
         "Type": "PPL",
@@ -1873,7 +1873,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "b2aa3e4c-f7bf-4348-b676-f5351b10efb7",
         "Nom": "Patinoire de patin libre, Parc de la Rive-Boisé",
         "Resurface": false,
         "Type": "PPL",
@@ -1885,7 +1885,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "3af87408-12ae-4ee9-89a7-69efd5299619",
         "Nom": "Patinoire de patin libre, Parc de Roxboro",
         "Resurface": false,
         "Type": "PPL",
@@ -1897,7 +1897,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "da79c480-7a74-435a-8634-22dd89590111",
         "Nom": "Patinoire de patin libre, parc Dixie",
         "Resurface": false,
         "Type": "PPL",
@@ -1909,7 +1909,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "bcdbc927-350c-4de8-bdbf-815e1c9b71d5",
         "Nom": "Patinoire de patin libre, Parc Grier",
         "Resurface": false,
         "Type": "PPL",
@@ -1921,7 +1921,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "840e8152-ea6f-4f17-a50c-fb3a9914be93",
         "Nom": "Patinoire de patin libre, Parc Jacques-Parizeau",
         "Resurface": true,
         "Type": "PPL",
@@ -1933,7 +1933,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "b5cf460e-8edc-4a9a-b457-951c2afff769",
         "Nom": "Patinoire de patin libre, parc Kirkland",
         "Resurface": false,
         "Type": "PPL",
@@ -1945,7 +1945,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "53710580-c8ee-426e-9414-965e90d71c7b",
         "Nom": "Patinoire de patin libre, parc LaSalle",
         "Resurface": false,
         "Type": "PPL",
@@ -1957,7 +1957,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "56119696-6844-4db7-b58f-a3d2098a1f37",
         "Nom": "Patinoire de patin libre, Parc Montmartre",
         "Resurface": false,
         "Type": "PPL",
@@ -1969,7 +1969,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "5e1e4e4d-8a0b-4030-b049-7c537bb50279",
         "Nom": "Patinoire de patin libre, parc Ovila-Légaré",
         "Resurface": true,
         "Type": "PP",
@@ -1981,7 +1981,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "7d7589fa-ab63-47be-9974-a1d7504ada07",
         "Nom": "Patinoire de patin libre, parc Rosewood",
         "Resurface": false,
         "Type": "PPL",
@@ -1993,7 +1993,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "04801046-b861-4b71-8f59-08064e6234d3",
         "Nom": "Patinoire de patin libre, Parc Saint-Viateur",
         "Resurface": true,
         "Type": "PP",
@@ -2005,7 +2005,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "25896271-dbe1-435c-a8dd-a8facc42b534",
         "Nom": "Patinoire de patin libre, parc Villeray",
         "Resurface": true,
         "Type": "PP",
@@ -2017,7 +2017,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "a6f67cc6-349d-4549-9dc0-93ce5bfe356c",
         "Nom": "Patinoire de patin libre, Père-Marquette",
         "Resurface": false,
         "Type": "PPL",
@@ -2029,7 +2029,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "b207805f-438f-4b59-9e9e-f6a66dc6abee",
         "Nom": "Patinoire de patin libre, Pierre-Bédard",
         "Resurface": true,
         "Type": "PPL",
@@ -2041,7 +2041,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "e6158a8f-07d0-4285-8746-24d377dd83a2",
         "Nom": "Patinoire de patin libre, Pierre-Bernard",
         "Resurface": true,
         "Type": "PPL",
@@ -2053,7 +2053,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "3f5a79c2-989a-4817-bca3-6334adfd9d34",
         "Nom": "Patinoire de patin libre, Rougemont",
         "Resurface": false,
         "Type": "PPL",
@@ -2065,7 +2065,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "6cbb199d-256e-4a23-a44b-94b0ca2cc07e",
         "Nom": "Patinoire de patin libre, Saint-Aloysius",
         "Resurface": false,
         "Type": "PPL",
@@ -2077,7 +2077,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "8686f01d-136d-440d-bbd4-52f36ecb3f5b",
         "Nom": "Patinoire de patin libre, Saint-Alphonse",
         "Resurface": true,
         "Type": "PPL",
@@ -2089,7 +2089,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "49bd6b46-61cf-45e4-8c8e-f23153e7fb96",
         "Nom": "Patinoire de patin libre, Saint-André-Apôtre",
         "Resurface": true,
         "Type": "PPL",
@@ -2101,7 +2101,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "2e7ea5c8-f656-47ca-88a8-f0a49a2b355f",
         "Nom": "Patinoire de patin libre, Sainte-Bernadette",
         "Resurface": false,
         "Type": "PPL",
@@ -2113,7 +2113,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "50181851-c8b5-4f98-9a8a-4d5997397234",
         "Nom": "Patinoire de patin libre, Sainte-Maria-Goretti",
         "Resurface": false,
         "Type": "PPL",
@@ -2125,7 +2125,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "cd4128e6-dcd9-40ac-bef5-15c9c38caadc",
         "Nom": "Patinoire de patin libre, Saint-Jean-Baptiste",
         "Resurface": false,
         "Type": "PPL",
@@ -2137,7 +2137,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "dbb893d2-bdbe-43e6-9041-092650f2300c",
         "Nom": "Patinoire de patin libre, Saint-Paul-de-la-Croix",
         "Resurface": true,
         "Type": "PPL",
@@ -2149,7 +2149,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "de78fcb6-855e-446f-9a32-edcb1611a229",
         "Nom": "Patinoire de patin libre, Saint-Simon-Apôtre",
         "Resurface": true,
         "Type": "PPL",
@@ -2161,7 +2161,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "f72cd63e-c501-48bc-900f-1464119e6b83",
         "Nom": "Patinoire de patin libre, Saint-Victor",
         "Resurface": true,
         "Type": "PPL",
@@ -2173,7 +2173,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "1a426fe0-1391-40b3-8d90-bdfc8f4271bc",
         "Nom": "Patinoire de patin libre, Sault-au-Récollet",
         "Resurface": true,
         "Type": "PPL",
@@ -2185,7 +2185,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "3a44440c-b897-4973-8d38-68950dbfbd09",
         "Nom": "Patinoire de patin libre, Sir-Wilfrid-Laurier",
         "Resurface": true,
         "Type": "PPL",
@@ -2197,7 +2197,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "f80846b1-c979-462d-a5a4-b7aa72e9a984",
         "Nom": "Patinoire de patin libre Sud, Parc Alexander",
         "Resurface": false,
         "Type": "PPL",
@@ -2209,7 +2209,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "26a6c4ee-96b3-471f-a23a-23032b96c410",
         "Nom": "Patinoire de patin libre Sud, Parc d\u0027À-Ma-Baie",
         "Resurface": false,
         "Type": "PPL",
@@ -2221,7 +2221,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "76b3276f-4ed1-448f-832f-c9e1ef35bf22",
         "Nom": "Patinoire de patin libre, Terrain de la mairie",
         "Resurface": false,
         "Type": "PPL",
@@ -2233,7 +2233,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "f2db76d2-944a-4768-8983-96923a032faf",
         "Nom": "Patinoire de patin libre, Théodore",
         "Resurface": false,
         "Type": "PPL",
@@ -2245,7 +2245,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "755e6e48-d596-4300-8c90-270a16556702",
         "Nom": "Patinoire de patin libre, Vinet",
         "Resurface": false,
         "Type": "PPL",
@@ -2257,7 +2257,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "e66d6a2e-ee58-48d5-ad0a-8da41fc8c1b6",
         "Nom": "Patinoire de patin libre, Walter-Stewart",
         "Resurface": true,
         "Type": "PPL",
@@ -2269,7 +2269,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "bfeec05f-5e9c-4078-bfea-15042907048b",
         "Nom": "Patinoire de patin libre, Y-Thériault/Sherbrooke",
         "Resurface": false,
         "Type": "PPL",
@@ -2281,7 +2281,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "6ddf5d2d-a7b3-4bf3-b5e4-ba7920059855",
         "Nom": "Patinoire de patin libre,parc Hans-Selye",
         "Resurface": false,
         "Type": "PPL",
@@ -2293,7 +2293,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "ac69999c-1545-48d8-b6e6-285523c3a1a1",
         "Nom": "Patinoire décorative, Campbell-Ouest",
         "Resurface": false,
         "Type": "PP",
@@ -2305,7 +2305,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "a0f3b3f7-16d4-451b-8ff4-df27ae98fd2a",
         "Nom": "Patinoire décorative, Carré Hibernia",
         "Resurface": false,
         "Type": "PP",
@@ -2317,7 +2317,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "3d45e3d9-999c-4bfb-b213-60ba14da87b3",
         "Nom": "Patinoire décorative, Daniel-Johnson",
         "Resurface": false,
         "Type": "PP",
@@ -2329,7 +2329,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "58ce45fa-117d-4778-ae19-422cebfc979e",
         "Nom": "Patinoire décorative, De la Petite-Italie",
         "Resurface": false,
         "Type": "PP",
@@ -2341,7 +2341,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "994080e3-af84-4e29-b172-eef90324e625",
         "Nom": "Patinoire décorative, De Lorimier",
         "Resurface": true,
         "Type": "PP",
@@ -2353,7 +2353,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "c7880837-3106-45e8-be04-f2c0aaea2fa2",
         "Nom": "Patinoire décorative, De Normanville",
         "Resurface": true,
         "Type": "PP",
@@ -2365,7 +2365,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "18962119-006d-4e9e-bb9b-e86cf3cd5123",
         "Nom": "Patinoire décorative, Esplanade de la Pointe-Nord",
         "Resurface": false,
         "Type": "PP",
@@ -2377,7 +2377,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "31a85f45-d261-4379-a56b-74308b459997",
         "Nom": "Patinoire décorative, Fort-de-Pointe-aux-Trembles",
         "Resurface": false,
         "Type": "PP",
@@ -2389,7 +2389,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "791952c9-212c-4335-ad8d-57adc88a977d",
         "Nom": "Patinoire décorative, François-Perrault",
         "Resurface": true,
         "Type": "PP",
@@ -2401,7 +2401,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "597606c4-5561-4908-ae00-576801b601f1",
         "Nom": "Patinoire décorative, Jarry",
         "Resurface": true,
         "Type": "PP",
@@ -2413,7 +2413,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "7bfb85ea-a784-465b-a4be-f9b9391770ec",
         "Nom": "Patinoire décorative, La Fontaine",
         "Resurface": true,
         "Type": "PP",
@@ -2425,7 +2425,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "341f6674-e3ef-46b2-a966-0269cc55cdaa",
         "Nom": "Patinoire décorative, Maisonneuve",
         "Resurface": false,
         "Type": "PP",
@@ -2437,7 +2437,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "9a6cfa73-04bc-4286-ac3a-cdfc9f6e907b",
         "Nom": "Patinoire décorative, Molson",
         "Resurface": false,
         "Type": "PP",
@@ -2449,7 +2449,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "55fd56c1-b39d-4ff7-8dd8-b126b5e21687",
         "Nom": "Patinoire décorative, Oscar-Peterson",
         "Resurface": false,
         "Type": "PP",
@@ -2461,7 +2461,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "709abff1-4bfb-4a67-8340-46907ea1cad8",
         "Nom": "Patinoire décorative Parc Arthur-Therrien",
         "Resurface": false,
         "Type": "PP",
@@ -2473,7 +2473,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "0ff7976b-73a5-42ee-9dc7-19427d616fad",
         "Nom": "Patinoire décorative, Parc Beurling",
         "Resurface": false,
         "Type": "PP",
@@ -2485,7 +2485,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "ca329904-2f7e-400a-9c7f-a2c91e03752a",
         "Nom": "Patinoire décorative, Parc de la Fontaine",
         "Resurface": false,
         "Type": "PP",
@@ -2497,7 +2497,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "0594c78b-991f-4720-b38a-0007d63af6ed",
         "Nom": "Patinoire décorative, Parc Elgar",
         "Resurface": false,
         "Type": "PP",
@@ -2509,7 +2509,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "3aafc20c-0f69-4594-92ba-906ba4f49a8b",
         "Nom": "Patinoire décorative, parc Willibrord",
         "Resurface": false,
         "Type": "PP",
@@ -2521,7 +2521,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "669835fe-8374-4258-b12a-afca862e3786",
         "Nom": "Patinoire Décorative, Polyvalente Saint-Henri",
         "Resurface": false,
         "Type": "PP",
@@ -2533,7 +2533,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "c1e03347-6041-41ff-8643-5230a514d9b6",
         "Nom": "Patinoire décorative, Reine-Elisabeth",
         "Resurface": false,
         "Type": "PP",
@@ -2545,7 +2545,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "c66c5e7a-fccb-46b2-8271-6f5f21d959cc",
         "Nom": "Patinoire décorative, Sir-Georges-Étienne-Cartier",
         "Resurface": false,
         "Type": "PP",
@@ -2557,7 +2557,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "8a5d329d-c55d-4477-9924-85a8140964e1",
         "Nom": "Patinoire décorative Toussaint-Louverture",
         "Resurface": true,
         "Type": "PP",
@@ -2569,7 +2569,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "bf468c01-f753-41e4-8d71-49016160e8b6",
         "Nom": "Patinoire du Glacis",
         "Resurface": true,
         "Type": "PP",
@@ -2581,7 +2581,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "1c0b7694-648d-43b1-bcc0-03c98e455654",
         "Nom": "Patinoire du parc Aimé-Léonard",
         "Resurface": true,
         "Type": "PP",
@@ -2593,7 +2593,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "8dd3e858-fd6a-4836-b039-f08b4f093327",
         "Nom": "Patinoire ext. avec bandes du parc Lefebvre",
         "Resurface": true,
         "Type": "PSE",
@@ -2605,7 +2605,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "1915b559-7397-4cf2-b746-62022ee594d0",
         "Nom": "Patinoire ext. avec bandes du parc Raymond",
         "Resurface": true,
         "Type": "PSE",
@@ -2617,7 +2617,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "d85c8b01-157b-4916-88ab-ba1cb1d07997",
         "Nom": "Patinoire ext. avec bandes du parc Riverside",
         "Resurface": true,
         "Type": "PSE",
@@ -2629,7 +2629,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "95bf3527-dd62-4a90-9259-6f21144fd0c4",
         "Nom": "Patinoire extérieure , Parc Cousineau",
         "Resurface": false,
         "Type": "PSE",
@@ -2641,7 +2641,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "873f93cd-9b35-4c7c-b2e6-cc09f8582871",
         "Nom": "Patinoire extérieure , Parc Gohier",
         "Resurface": false,
         "Type": "PSE",
@@ -2653,7 +2653,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "a084fa3d-ad0f-473a-ab1a-07e2a4bfb303",
         "Nom": "Patinoire extérieure , Parc Houde",
         "Resurface": false,
         "Type": "PSE",
@@ -2665,7 +2665,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "54eebf32-fb8c-4e5f-a156-6daae48a27a2",
         "Nom": "Patinoire extérieure , Parc Marcel-Laurin",
         "Resurface": false,
         "Type": "PSE",
@@ -2677,7 +2677,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "9263b223-09bb-48f6-9357-9eb1b1ae8f7c",
         "Nom": "Patinoire extérieure , Parc Noël-Nord",
         "Resurface": false,
         "Type": "PSE",
@@ -2689,7 +2689,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "b0d84156-9e7f-4faf-b938-203c904f1f4b",
         "Nom": "Patinoire extérieure , Parc Painter",
         "Resurface": false,
         "Type": "PSE",
@@ -2701,7 +2701,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "b3777b62-ee42-4e06-92b2-ce1a5094d746",
         "Nom": "Patinoire extérieure , Parc Petit",
         "Resurface": false,
         "Type": "PSE",
@@ -2713,7 +2713,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "2c3028ea-fd5d-4ffd-923e-1ec4c497412e",
         "Nom": "Patinoire extérieure , Parc Poirier",
         "Resurface": false,
         "Type": "PSE",
@@ -2725,7 +2725,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "55524b67-45a1-4e6c-9c12-e1c8cbc6af08",
         "Nom": "Patinoire extérieure, Lac du Bois-Franc",
         "Resurface": false,
         "Type": "PSE",
@@ -2737,7 +2737,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "d0f6b833-e43d-45e6-94f9-a8dd170897c1",
         "Nom": "Patinoire extérieure, Parc Beaulac",
         "Resurface": false,
         "Type": "PSE",
@@ -2749,7 +2749,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "49ef120c-2cab-4e04-8bee-e36bbd1eeae1",
         "Nom": "Patinoire extérieure, Parc Chamberland",
         "Resurface": false,
         "Type": "PSE",
@@ -2761,7 +2761,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "97e30b9c-bb71-44bc-b363-431446396cf0",
         "Nom": "Patinoire extérieure, Parc Decelles",
         "Resurface": false,
         "Type": "PSE",
@@ -2773,7 +2773,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "bbe4bcf8-c702-4dee-9814-7e636c41b54d",
         "Nom": "Patinoire extérieure, Parc Philippe-Laheurte",
         "Resurface": false,
         "Type": "PPL",
@@ -2785,7 +2785,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "1c5d7d6b-dc56-451c-add8-69df7f8aad9f",
         "Nom": "Patinoire réfrigérée Bleu Blanc Bouge",
         "Resurface": true,
         "Type": "PSE",
@@ -2797,7 +2797,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "5f47612a-cc7a-4616-ac95-c89b91787ec6",
         "Nom": "Patinoire réfrigérée, Lac aux Castors",
         "Resurface": true,
         "Type": "PP",
@@ -2809,7 +2809,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "dc5ebb4f-2d95-4b47-9a03-29347b6fc873",
         "Nom": "Patinoire sport d\u0027équipe, Parc Decelle",
         "Resurface": false,
         "Type": "PSE",
@@ -2821,7 +2821,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "4c905e1b-2740-4106-9503-86199ccef0d0",
         "Nom": "Petite patinoire avec bandes, La Fontaine",
         "Resurface": true,
         "Type": "PSE",
@@ -2833,7 +2833,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "32dd414d-374b-4e9b-8ded-033b8b90241d",
         "Nom": "Petite patinoire de hockey, Parc Beaubien",
         "Resurface": true,
         "Type": "PSE",
@@ -2845,7 +2845,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "916bbb2f-ffd6-4a42-b79d-3f7b519a344a",
         "Nom": "Piste de curling, Parc Charles-S-Campbell",
         "Resurface": true,
         "Type": "PSE",
@@ -2857,7 +2857,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "65db9519-d9af-45d8-a390-c7d374bbb023",
         "Nom": "Rond de glace , Parc Beaulac",
         "Resurface": false,
         "Type": "PPL",
@@ -2869,7 +2869,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "013da25f-a4d8-412d-9208-89d0415385c0",
         "Nom": "Rond de glace , Parc Chamberland",
         "Resurface": false,
         "Type": "PPL",
@@ -2881,7 +2881,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "32a657c5-951c-4bc3-90aa-931175ebfe5d",
         "Nom": "Rond de glace , Parc Cousineau",
         "Resurface": false,
         "Type": "PPL",
@@ -2893,7 +2893,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "f340cd17-95f6-40d4-9be4-470a3ca265ea",
         "Nom": "Rond de glace , Parc Houde",
         "Resurface": false,
         "Type": "PPL",
@@ -2905,7 +2905,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "c92e0f35-b78c-4ae4-839c-4a1830f91321",
         "Nom": "Rond de glace , Parc Noël-Nord",
         "Resurface": false,
         "Type": "PPL",
@@ -2917,7 +2917,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "efb745f3-4894-44df-95e1-fe87f2a8fe73",
         "Nom": "Rond de glace , Parc Painter",
         "Resurface": false,
         "Type": "PPL",
@@ -2929,7 +2929,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "34b6e2e6-868d-4fe0-a9c6-c62c65b55638",
         "Nom": "Rond de glace , Parc Petit",
         "Resurface": false,
         "Type": "PPL",
@@ -2941,7 +2941,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "b5d92b7a-d157-43d6-b16f-0fefdfe4cc92",
         "Nom": "Rond de glace, Lac du Bois-Franc",
         "Resurface": false,
         "Type": "PP",
@@ -2953,7 +2953,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "be8f172d-5cc9-4fbc-b03a-1e479dd2f753",
         "Nom": "Rond de glace, Parc Gohier",
         "Resurface": false,
         "Type": "PPL",
@@ -2965,7 +2965,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "72747d65-5fae-4e0d-93ac-8ba4e5b3668d",
         "Nom": "Rond de glace, Parc Hartenstein",
         "Resurface": false,
         "Type": "PPL",
@@ -2977,7 +2977,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "225fe435-e737-46a8-a880-d53d3371d154",
         "Nom": "Rond de glace, Parc Saint-Laurent",
         "Resurface": false,
         "Type": "PPL",
@@ -2989,7 +2989,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "7006ba67-8365-4f33-aa90-cd0d52bc7708",
         "Nom": "Sentier à patiner décoré du parc Lefebvre",
         "Resurface": true,
         "Type": "PP",
@@ -3001,7 +3001,7 @@
     },
     {
         "Ouvert": false,
-        "Id": "",
+        "Id": "f3c71749-6eed-4159-a199-9acec470c280",
         "Nom": "Sentier à patiner décoré du parc Raymond",
         "Resurface": true,
         "Type": "PP",
@@ -3013,7 +3013,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "df31cb23-65bf-4202-946a-06f98f26e056",
         "Nom": "Sentier de glace, Parc Beaudet",
         "Resurface": false,
         "Type": "PP",
@@ -3025,7 +3025,7 @@
     },
     {
         "Ouvert": true,
-        "Id": "",
+        "Id": "55d4b964-a933-4f7f-9704-c0057e14d6d7",
         "Nom": "Sentiers Glacés, parc Marina d\u0027Escale",
         "Resurface": false,
         "Type": "PP",
