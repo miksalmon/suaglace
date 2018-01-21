@@ -43,12 +43,8 @@ export class MapPage {
         JSON.parse(JSON.parse(data.data)).forEach(element => {
           var marker = new google.maps.Marker({
             map: this.map,
-            position: { lat: element.Lat(), lng: element.Lng() }
+            position: { lat: element.Lat, lng: element.Lng }
           });
-          i++;
-          if(i % 25 === 0) {
-            setTimeout(1000);
-          }
         });
       })
       .catch(error => {
