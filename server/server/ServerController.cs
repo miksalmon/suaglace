@@ -10,15 +10,15 @@ namespace server
         // Gets all rinks
         public string Get()
         {
-            var rinkCollection = RinkCollection.GetInstance();
-            return JsonConvert.SerializeObject(rinkCollection.Collection);
+            var rinkCollection = RinkCollection.GetCollection();
+            return JsonConvert.SerializeObject(rinkCollection);
         }
 
         // GET api/server/5 
         public string Get([FromUri] string id)
         {
-            var rinkCollection = RinkCollection.GetInstance();
-            var rink = rinkCollection.Collection.Find(r => r.Id == id);
+            var rinkCollection = RinkCollection.GetCollection();
+            var rink = rinkCollection.Find(r => r.Id == id);
             return JsonConvert.SerializeObject(rink);
         }
     }

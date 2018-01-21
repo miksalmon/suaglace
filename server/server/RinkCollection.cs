@@ -10,32 +10,20 @@ using Newtonsoft.Json;
 namespace server
 {
 
-    class RinkCollection
+    static class RinkCollection
     {
-        private static RinkCollection Instance { get; set; }
 
-        public List<Rink> Collection { get; set; }
+        static public List<Rink> Collection { get; set; } = null;
 
-        private RinkCollection()
+        static public List<Rink> GetCollection()
         {
-            Instance = null;
-            Collection = null;
-        }
-
-        public static RinkCollection GetInstance()
-        {
-            if (Instance == null)
+            if (Collection == null)
             {
-                Instance = new RinkCollection();
+                string json = File.ReadAllText(@"data.json");
+                Collection = JsonConvert.DeserializeObject<List<Rink>>(json);
             }
 
-            return Instance;
-        }
-
-        public void Initialize()
-        {
-            string json = File.ReadAllText(@"data.json");
-            Collection = JsonConvert.DeserializeObject<List<Rink>>(json);
+            return Collection;
         }
     }
 }
