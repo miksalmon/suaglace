@@ -1,6 +1,6 @@
 import { HTTP } from '@ionic-native/http';
 import { Component } from '@angular/core';
-import { ViewController, NavController } from 'ionic-angular';
+import { ViewController, NavController, NavParams } from 'ionic-angular';
 
 @Component({
   selector: 'page-rink-details',
@@ -17,8 +17,8 @@ export class RinkDetailsPage {
     'Id': '123456789'
   };
 
-  constructor(public viewCtrl: ViewController, public http: HTTP, public navCtrl: NavController) {
-    this.rink = viewCtrl.data;
+  constructor(public viewCtrl: ViewController, public http: HTTP, public navCtrl: NavController, public navParams: NavParams) {
+    this.rink = this.navParams.data;
     this.participants = this.http.get('http://00242053.ngrok.io/api/players', {}, {})
       .then(data => {
         this.participants = JSON.parse(JSON.parse(data.data));
