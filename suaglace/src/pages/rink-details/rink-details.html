@@ -17,8 +17,12 @@
       Details
     </ion-list-header>
 
-    <ion-item>
-      Cord
+    <ion-item *ngIf="rink.Ouvert">
+      <ion-label color="primary">Open</ion-label>
+      <ion-radio checked="true"></ion-radio>
+    </ion-item>
+    <ion-item *ngIf="!rink.Ouvert">
+      <ion-label color="danger">Closed</ion-label>
     </ion-item>
 
     <ion-item>
