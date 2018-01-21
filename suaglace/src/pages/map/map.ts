@@ -2,6 +2,7 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
 import { HTTP } from '@ionic-native/http';
+import { Geolocation } from '@ionic-native/geolocation';
 
 declare var google: any;
 
@@ -15,7 +16,7 @@ export class MapPage {
 
   map: any;
 
-  constructor(public navCtrl: NavController, private http: HTTP) { }
+  constructor(public navCtrl: NavController, private http: HTTP, private geolocation: Geolocation) { }
 
   ionViewDidLoad() {
     this.showMap();
@@ -51,20 +52,26 @@ export class MapPage {
         console.log(error);
       });
 
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition((position) => {
-          var pos = {
-            lat: position.coords.latitude,
-            lng: position.coords.longitude
-          };
-          this.map.setCenter(pos);
-          var marker = new google.maps.Marker({
-            map: this.map,
-            position: pos,
-            icon: 'http://simpleicon.com/wp-content/uploads/map-marker-17.png'
-          });
-        }, () => { console.log('errrrrroooooooor') });
-      }
+    this.geolocation.getCurrentPosition().then((resp) => {
+      var pos = {
+        lat: resp.coords.latitude,
+        lng: resp.coords.longitude
+      };
+      this.map.setCenter(pos);
+      var icon = {
+        url: 'http://simpleicon.com/wp-content/uploads/map-marker-17.png',
+        scaledSize: new google.maps.Size(50, 50),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(25, 41.5)
+      };
+      var marker = new google.maps.Marker({
+        map: this.map,
+        position: pos,
+        icon: icon
+      });
+    }).catch((error) => {
+      console.log('Error getting location', error);
+    });
 
     const contentString = '<div id="content">' +
       '<div id="siteNotice">' +
