@@ -8,10 +8,11 @@ import { RinkListPage } from '../pages/rink-list/rink-list';
 import { ProfilPage } from '../pages/profil/profil';
 import { MapPage } from '../pages/map/map';
 import { TabsPage } from '../pages/tabs/tabs';
-import { RinkDetailsModal } from './../pages/rink-details/rink-details';
+import { RinkDetailsPage } from './../pages/rink-details/rink-details';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { FiltersPage } from '../pages/filters/filters';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProfilPage,
     MapPage,
     TabsPage,
-    RinkDetailsModal
+    RinkDetailsPage,
+    FiltersPage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProfilPage,
     MapPage,
     TabsPage,
-    RinkDetailsModal
+    RinkDetailsPage,
+    FiltersPage
   ],
   providers: [
     StatusBar,
