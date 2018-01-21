@@ -11,8 +11,8 @@ export class RinkDetailsPage {
   public rink;
   public participants;
   public user = {
-    'Name': 'Alain',
-    'PreferedPosition': 'Forward',
+    'Name': 'Samuel Chapleau',
+    'PreferedPosition': 'Attaquant',
     'FavoriteRink': 'Parc Beaubien',
     'Id': '123456789'
   };
