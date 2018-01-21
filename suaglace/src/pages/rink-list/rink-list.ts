@@ -12,7 +12,7 @@ export class RinkListPage {
   public rinks;
 
   constructor(public modalCtrl: ModalController, public navCtrl: NavController, private http: HTTP) {
-    this.http.get('http://dcabb22e.ngrok.io/api/info', {}, {})
+    this.http.get('http://00242053.ngrok.io/api/info', {}, {})
     .then(data => {
       this.rinks = JSON.parse(JSON.parse(data.data));
     })
