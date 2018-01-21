@@ -2,9 +2,19 @@ $data = Get-Content "raw-data.json" -Encoding "UTF8" | ConvertFrom-Json
 
 $collection = @()
 foreach ($item in $data.patinoires) {
+    $info = $item.nom.Substring(0, $item.nom.Length - 5).Trim().Split(",")
+    if ($info[0]) {
+        $nom = $info[0].Trim()
+    }
+    
+
+    if ($info[1]) {
+        $parc = $info[1].Trim()
+    }
+
     $props = @{
-        'Nom'            = $item.nom.Substring(0, $item.nom.Length - 5).TrimEnd();
-        'Type'           = If ($item.nom.Contains("(PP)")) {"PP"} Else { If ($item.nom.Contains("(PSE)")) {"PSE"} Else { If ($item.nom.Contains("(PPL)")) {"PPL"} Else {$null}}};
+        'Parc'           = $parc;
+        'Nom'            = $nom;
         'Arrondissement' = $item.arrondissement.nom_arr;
         'Ouvert'         = If ($item.ouvert) {$true} Else {$false};
         'Deblaye'        = If ($item.deblaye) {$true} Else {$false};
@@ -15,8 +25,11 @@ foreach ($item in $data.patinoires) {
         'Id'             = [Guid]::NewGuid();
     }
 
-    $item = New-Object -TypeName PSObject -Property $props
-    $collection += $item
+    
+    if ($item.nom.Contains("PSE")) {
+        $item = New-Object -TypeName PSObject -Property $props
+        $collection += $item
+    }
 }
 
 $collection | ConvertTo-Json | Out-File -Encoding "UTF8" -FilePath "data2.json"

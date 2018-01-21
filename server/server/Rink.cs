@@ -12,6 +12,7 @@ namespace server
         public bool Ouvert { get; set; }
         public string Id { get; set; }
         public string Nom { get; set; }
+        public string Parc { get; set; }
         public bool Resurface { get; set; }
         public string Type { get; set; }
         public bool Arrose { get; set; }
